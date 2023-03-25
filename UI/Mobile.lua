@@ -4246,7 +4246,7 @@ if Name == " " then Name = "" end
 		if isfolder("POOPDOORS_EDITED_UI") then
 			for _,v in pairs(listfiles("POOPDOORS_EDITED_UI")) do
 				local filename = v
-				filename = string.gsub(filename, "POOPDOORS_EDITED", "")
+				filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
 				filename = filename:sub(2)
 				
 				local filedata = readfile(v)
