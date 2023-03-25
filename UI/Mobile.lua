@@ -4239,9 +4239,24 @@ if Name == " " then Name = "" end
 	})
 
 	if isfolder and isfile and makefolder and writefile and delfile then
-		local FOLDER_NAME = "POOPDOORS_EDITED_UI"
+		local FOLDER_NAME = "MSDOORS_UI"
 		local function checkdir() if not isfolder(FOLDER_NAME) then makefolder(FOLDER_NAME) end end
 		checkdir()
+		
+		if isfolder("POOPDOORS_EDITED_UI") then
+			for _,v in pairs(listfiles("POOPDOORS_EDITED_UI")) do
+				local filename = v
+				filename = string.gsub(filename, "POOPDOORS_EDITED", "")
+				filename = filename:sub(2)
+				
+				local filedata = readfile(v)
+				writefile(FOLDER_NAME.."/"..filename, filedata)
+				task.wait()
+				delfile(v)
+			end
+
+			delfolder("POOPDOORS_EDITED_UI")
+		end
 
 		local themelist = {}	
 		local CustomThemes = {}
