@@ -272,7 +272,7 @@ Spawner.runEntity = function(entityTable)
                  entityRootModel = entityModel.Hitbox
                 end
                 
-                if entityTable.Config.CanKill and not Char:GetAttribute("IsDead") and not Char:GetAttribute("Invincible") and not Char:GetAttribute("Hiding") and (getPlayerRoot().Position - entityRootModel.Position).Magnitude <= entityTable.Config.KillRange then
+                if entityTable.Config.CanKill and not Char:GetAttribute("IsDead") and not Char:GetAttribute("Invincible") and not Char:GetAttribute("Hiding") and not Char:FindFirstChild("Crucifix") and (getPlayerRoot().Position - entityRootModel.Position).Magnitude <= entityTable.Config.KillRange then
                     task.spawn(function()
                         Char:SetAttribute("IsDead", true)
 
