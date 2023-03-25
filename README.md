@@ -1,2 +1,5 @@
-original https://v3rmillion.net/showthread.php?tid=1200475 <br>
-discord: https://discord.gg/vC9kRbMVCq 
+discord: https://discord.gg/vC9kRbMVCq <br>
+```lua
+-- MSDOORS
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+```
