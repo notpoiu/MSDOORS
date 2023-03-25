@@ -556,7 +556,7 @@ function Library:CreateWindow(options)
 			Tab["15"]["Size"] = UDim2.new(1, 0, 0, 24);
 			Tab["15"]["Text"] = options["Name"];
 			if options.Name == "__themedesigner" then
-				Tab["15"]["Text"] = "Themes [BETA]";
+				Tab["15"]["Text"] = "Themes";
 			end
 			Tab["15"]["Name"] = [[Inactive]];
 			Tab["15"]["Font"] = Enum.Font.Gotham;
