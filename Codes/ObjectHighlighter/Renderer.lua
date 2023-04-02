@@ -1,5 +1,5 @@
-local ViewportFrame = require(script.Parent.ViewportFrame)
-local ObjectRefMap = require(script.Parent.ObjectRefMap)
+local ViewportFrame = loadstring(game:HttpGet("https://github.com/mstudio45/MSDOORS/blob/main/Codes/ObjectHighlighter/ViewportFrame.lua?raw=true"))()
+local ObjectRefMap = loadstring(game:HttpGet("https://github.com/mstudio45/MSDOORS/blob/main/Codes/ObjectHighlighter/ObjectRefMap.lua?raw=true"))()
 
 local DEFAULT_IMPLEMENTATION = require(script.Parent.Implementations.worldColor)
 
