@@ -4242,22 +4242,24 @@ if Name == " " then Name = "" end
 		local FOLDER_NAME = "MSDOORS_UI"
 		local function checkdir() if not isfolder(FOLDER_NAME) then makefolder(FOLDER_NAME) end end
 		checkdir()
-		
+
 		if isfolder("POOPDOORS_EDITED_UI") then
 			for _,v in pairs(listfiles("POOPDOORS_EDITED_UI")) do
 				local filename = v
 				filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
-				filename = filename:sub(2)
+				filename = string.gsub(filename, "/", "")
+				filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
+				filename = string.gsub(filename, "\\", "")
 				
 				local filedata = readfile(v)
-				writefile(FOLDER_NAME.."/"..filename, filedata)
+				writefile(MSDOORS_FOLDER_NAME.."/"..filename, filedata)
 				task.wait()
 				delfile(v)
 			end
 
 			delfolder("POOPDOORS_EDITED_UI")
 		end
-
+		
 		local themelist = {}	
 		local CustomThemes = {}
 		Library.__themes_loadTheme = function(name, deleteable)
