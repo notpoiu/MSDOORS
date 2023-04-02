@@ -1,7 +1,7 @@
 local ViewportFrame = loadstring(game:HttpGet("https://github.com/mstudio45/MSDOORS/blob/main/Codes/ObjectHighlighter/ViewportFrame.lua?raw=true"))()
 local ObjectRefMap = loadstring(game:HttpGet("https://github.com/mstudio45/MSDOORS/blob/main/Codes/ObjectHighlighter/ObjectRefMap.lua?raw=true"))()
 
-local DEFAULT_IMPLEMENTATION = require(script.Parent.Implementations.worldColor)
+local DEFAULT_IMPLEMENTATION = loadstring(game:HttpGet("https://github.com/mstudio45/MSDOORS/blob/main/Codes/ObjectHighlighter/Implementations/worldColor.lua?raw=true"))()
 
 local Renderer = {}
 Renderer.__index = Renderer
