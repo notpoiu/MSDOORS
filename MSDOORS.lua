@@ -8,7 +8,7 @@ local s,e = pcall(function()
         isMobile = (platform == Enum.Platform.Android or platform == Enum.Platform.IOS)
     end)
     local exploit = getexploit()
-    if exploit == "Fluxus" and isMobile == true then 
+    if exploit == "Fluxus Android" then 
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/Moonsec.lua"),true))()
     else
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
