@@ -10,8 +10,10 @@ local s,e = pcall(function()
     ---local exploit = getexploit()
    -- if exploit == "Fluxus Android" then 
     if isMobile == true then
+        print("MSDOORS: Loading mobile version...")
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/Moonsec.lua"),true))()
     else
+        print("MSDOORS: Loading PC version...")
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
     end
 end)
