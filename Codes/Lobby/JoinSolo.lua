@@ -69,7 +69,7 @@ repeat
 	end
 	task.wait(1)
 	if teleported == false then
-		normalmessage("MSDOORS", "Solo games are full, retrying...", 2)
+		normalmessage("MSDOORS", "Solo elevators are full, retrying...", 2)
 	end
 until teleported == true
 normalmessage("MSDOORS", "Joining...", 10)
