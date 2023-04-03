@@ -4391,9 +4391,9 @@ if Name == " " then Name = "" end
 local loadthemes, loadthemee = pcall(function()
 		Library.__loadtheme()
 end)
-if e then
+if loadthemee then
 print("MSDOORS: Failed to load current theme:")
-warn(e)
+warn(loadthemee)
 end
 		task.wait()
 		task.spawn(function()
