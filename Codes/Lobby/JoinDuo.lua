@@ -50,7 +50,6 @@ end
 local teleported = false
 repeat
 	for _,v in pairs(game:GetService("Workspace").Lobby.LobbyElevators:GetChildren()) do
-		--pcall(function()
 			if v:FindFirstChild("DoorHitbox") then
 				if v.DoorHitbox:FindFirstChild("BillboardGui") then
 					if v.DoorHitbox.BillboardGui:FindFirstChild("Title") then
@@ -65,11 +64,10 @@ repeat
 					end
 				end
 			end
-		--end)
 	end
 	task.wait(1)
 	if teleported == false then
-		normalmessage("MSDOORS", "Duo games are full, retrying...", 2)
+		normalmessage("MSDOORS", "Duo elevators are full, retrying...", 2)
 	end
 until teleported == true
 normalmessage("MSDOORS", "Joining...", 10)
