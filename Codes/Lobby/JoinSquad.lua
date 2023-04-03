@@ -53,13 +53,15 @@ repeat
 			if v:FindFirstChild("DoorHitbox") then
 				if v.DoorHitbox:FindFirstChild("BillboardGui") then
 					if v.DoorHitbox.BillboardGui:FindFirstChild("Title") then
-						if v.DoorHitbox.BillboardGui.Title.Text == "0 / 4" or v.DoorHitbox.BillboardGui.Title.Text == "0 / 12" then
-							repeat
-								game.Players.LocalPlayer.Character:PivotTo(v.DoorHitbox.CFrame)
-								task.wait()
-							until v.DoorHitbox.BillboardGui.Players:FindFirstChild(game.Players.LocalPlayer.DisplayName) or v.DoorHitbox.BillboardGui.Players:FindFirstChild(game.Players.LocalPlayer.Name) --v.DoorHitbox.BillboardGui.Title.Text == "1 / 1" or v.DoorHitbox.BillboardGui.Title.Text == "1 / 12"
-							teleported = true
-							break
+						if not v.DoorHitbox.BillboardGui:FindFirstChild("Warning") then
+							if v.DoorHitbox.BillboardGui.Title.Text == "0 / 4" or v.DoorHitbox.BillboardGui.Title.Text == "0 / 12" then
+								repeat
+									game.Players.LocalPlayer.Character:PivotTo(v.DoorHitbox.CFrame)
+									task.wait()
+								until v.DoorHitbox.BillboardGui.Players:FindFirstChild(game.Players.LocalPlayer.DisplayName) or v.DoorHitbox.BillboardGui.Players:FindFirstChild(game.Players.LocalPlayer.Name) --v.DoorHitbox.BillboardGui.Title.Text == "1 / 1" or v.DoorHitbox.BillboardGui.Title.Text == "1 / 12"
+								teleported = true
+								break
+							end
 						end
 					end
 				end
