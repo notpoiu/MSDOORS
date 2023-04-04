@@ -4243,21 +4243,27 @@ if Name == " " then Name = "" end
 		local function checkdir() if not isfolder(FOLDER_NAME) then makefolder(FOLDER_NAME) end end
 		checkdir()
 
-		if isfolder("POOPDOORS_EDITED_UI") then
-			for _,v in pairs(listfiles("POOPDOORS_EDITED_UI")) do
-				local filename = v
-				filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
-				filename = string.gsub(filename, "/", "")
-				filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
-				filename = string.gsub(filename, "\\", "")
-				
-				local filedata = readfile(v)
-				writefile(MSDOORS_FOLDER_NAME.."/"..filename, filedata)
-				task.wait()
-				delfile(v)
-			end
+		local convertolds, convertolde = pcall(function()
+			if isfolder("POOPDOORS_EDITED_UI") then
+				for _,v in pairs(listfiles("POOPDOORS_EDITED_UI")) do
+					local filename = v
+					filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
+					filename = string.gsub(filename, "/", "")
+					filename = string.gsub(filename, "POOPDOORS_EDITED_UI", "")
+					filename = string.gsub(filename, "\\", "")
 
-			delfolder("POOPDOORS_EDITED_UI")
+					local filedata = readfile(v)
+					writefile(MSDOORS_FOLDER_NAME.."/"..filename, filedata)
+					task.wait()
+					delfile(v)
+				end
+
+				delfolder("POOPDOORS_EDITED_UI")
+			end
+		end)
+		if convertolde then
+			print("MSDOORS: Failed to convert old themes:")
+			warn(convertolde)
 		end
 		
 		local themelist = {}	
@@ -4388,13 +4394,15 @@ if Name == " " then Name = "" end
 		})
 
 		task.wait()
-local loadthemes, loadthemee = pcall(function()
-		Library.__loadtheme()
-end)
-if loadthemee then
-print("MSDOORS: Failed to load current theme:")
-warn(loadthemee)
-end
+		
+		local loadthemes, loadthemee = pcall(function()
+			Library.__loadtheme()
+		end)
+		if loadthemee then
+			print("MSDOORS: Failed to load current theme:")
+			warn(loadthemee)
+		end
+		
 		task.wait()
 		task.spawn(function()
 			Library.__themes_reloadThemesList()
