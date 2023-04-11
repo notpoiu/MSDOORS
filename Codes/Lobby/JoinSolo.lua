@@ -50,10 +50,11 @@ end
 local teleported = false
 repeat
 	for _,v in pairs(game:GetService("Workspace").Lobby.LobbyElevators:GetChildren()) do
+		if v.Name == "GameElevatorFools" then return end
 			if v:FindFirstChild("DoorHitbox") then
 				if v.DoorHitbox:FindFirstChild("BillboardGui") then
 					if v.DoorHitbox.BillboardGui:FindFirstChild("Title") then
-						if not v.DoorHitbox.BillboardGui:FindFirstChild("Warning") then
+						--if not v.DoorHitbox.BillboardGui:FindFirstChild("Warning") then
 							if v.DoorHitbox.BillboardGui.Title.Text == "0 / 1" or v.DoorHitbox.BillboardGui.Title.Text == "0 / 12" then
 								repeat
 									game.Players.LocalPlayer.Character:PivotTo(v.DoorHitbox.CFrame)
@@ -62,7 +63,7 @@ repeat
 								teleported = true
 								break
 							end
-						end
+						--end
 					end
 				end
 			end
