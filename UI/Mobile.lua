@@ -250,6 +250,7 @@ function Library:CreateWindow(options)
 
 		-- StarterGui.ML.Main
 		GUI["2"] = Instance.new("Frame", GUI["1"]);
+		GUI["2"]["Visible"] = false;
 		GUI["2"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
 		GUI["2"]["AnchorPoint"] = Vector2.new(0, 0);
 		GUI["2"]["Size"] = UDim2.new(0, 400, 0, 300);
@@ -4446,7 +4447,8 @@ if Name == " " then Name = "" end
 			Topbar = Color3.fromRGB(0, 170, 0)
 		})
 	end)
-
+	
+	Library.GUI["2"]["Visible"] = true;
 	return GUI
 end
 
