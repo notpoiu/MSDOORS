@@ -4068,7 +4068,10 @@ if Name == " " then Name = "" end
 		return Tab
 	end
 
+	Library.UnLoadCallback = function() end; -- can be set 
 	Library.unload = function()
+		if scriptrunning == false then return end
+
 		spawn(function()
 			task.wait(.265)
 			GUI["4"]["Visible"] = false;GUI["19"]["Visible"] = false;GUI["e"]["Visible"] = false;
@@ -4077,6 +4080,7 @@ if Name == " " then Name = "" end
 			Library:tween(GUI["2"], {Size = UDim2.new(0, 0, 0, 30)}, function()
 				scriptrunning = false;
 				GUI["1"]:Destroy()
+				pcall(function() Library.UnLoadCallback() end)
 			end, TweenInfo.new(.35, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut))
 		end, TweenInfo.new(.35, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut))
 	end
