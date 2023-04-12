@@ -4448,7 +4448,8 @@ if Name == " " then Name = "" end
 		})
 	end)
 	
-	Library.GUI["2"]["Visible"] = true;
+	pcall(function() Library.MainScreenGuiFrame.Visible = true; end)
+	pcall(function() Library.show() end)
 	return GUI
 end
 
