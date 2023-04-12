@@ -4080,7 +4080,7 @@ if Name == " " then Name = "" end
 			Library:tween(GUI["2"], {Size = UDim2.new(0, 0, 0, 30)}, function()
 				scriptrunning = false;
 				GUI["1"]:Destroy()
-				pcall(function() Library.UnLoadCallback() end)
+				pcall(function() Library.UnLoadCallback()warn("Unloaded") end)
 			end, TweenInfo.new(.35, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut))
 		end, TweenInfo.new(.35, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut))
 	end
