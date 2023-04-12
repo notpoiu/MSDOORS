@@ -255,10 +255,10 @@ function Library:CreateWindow(options)
 		GUI["2"]["Size"] = UDim2.new(0, 400, 0, 300);
 		GUI["2"]["ClipsDescendants"] = true;
 		GUI["2"]["Position"] = UDim2.fromOffset((Viewport.X / 2) - (GUI["2"]["Size"].X.Offset / 2), (Viewport.Y / 2) - (GUI["2"]["Size"].Y.Offset / 2));
-		GUI["2"]["Name"] = [[Main]];
+		GUI["2"]["Name"] = [[main]];
 		createObject("Color3Value", GUI["2"], "Background_Color")
 
-		-- StarterGui.ML.Main.UICorner
+		-- StarterGui.ML.UICorner
 		GUI["3"] = Instance.new("UICorner", GUI["2"]);
 		GUI["3"]["CornerRadius"] = UDim.new(0, 6);
 
@@ -4149,7 +4149,9 @@ if Name == " " then Name = "" end
 			--GUI["2"]["Size"] = UDim2.new(0, 400, 0, 300);
 		end
 	end
-
+	Library.MainScreenGui = GUI["1"]
+	Library.MainScreenGuiFrame = GUI["2"]
+	
 	game:GetService("UserInputService").InputBegan:Connect(function(input, gpa)
 		if input.KeyCode == Enum.KeyCode.RightShift and not UIS:GetFocusedTextBox() then
 			Library.vis_toggle()
