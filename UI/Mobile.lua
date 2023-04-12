@@ -431,11 +431,16 @@ function Library:CreateWindow(options)
 		createObject("Color3Value", GUI["11"], "Background_Second_Color")
 
 		-- StarterGui.ML.Main.Navigation.ButtonHolder
-		GUI["12"] = Instance.new("Frame", GUI["e"]);
+		GUI["12"] = Instance.new("ScrollingFrame", GUI["e"]);
+		GUI["12"]["Active"] = true;
 		GUI["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 		GUI["12"]["BackgroundTransparency"] = 1;
 		GUI["12"]["Size"] = UDim2.new(1, 0, 1, 0);
 		GUI["12"]["Name"] = [[ButtonHolder]];
+		GUI["12"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+		GUI["12"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+		GUI["12"]["ScrollBarThickness"] = 0;
+		GUI["12"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
 
 		-- StarterGui.ML.Main.Navigation.ButtonHolder.UIPadding
 		GUI["13"] = Instance.new("UIPadding", GUI["12"]);
@@ -893,7 +898,7 @@ function Library:CreateWindow(options)
 
 				function TextBox:Set(Name)
 					if string.len(Name) ~= 0 then
-if Name == " " then Name = "" end
+						if Name == " " then Name = "" end
 						TextBox["1f"]["Text"] = tostring(Name);
 						TextBox:_update()
 					end
@@ -1135,7 +1140,7 @@ if Name == " " then Name = "" end
 						end
 					end
 				end
-				
+
 				function Slider:SetMin(v)
 					if typeof(v) == "number" then
 						if v <= options.Max then
@@ -1664,7 +1669,7 @@ if Name == " " then Name = "" end
 
 				return Dropdown
 			end
-			
+
 			function Section:AddOpenDropdown(options)
 				options = Library:validate({
 					Name = "Dropdown",
@@ -1705,7 +1710,7 @@ if Name == " " then Name = "" end
 					Dropdown["37"]["Text"] = "";
 					Dropdown["37"]["Visible"] = true;
 					Dropdown["37"]["Active"] = false;
-					
+
 					-- StarterGui.ML.Main.Content.HomeTab.Dropdown.UICorner
 					Dropdown["38"] = Instance.new("UICorner", Dropdown["37"]);
 					Dropdown["38"]["CornerRadius"] = UDim.new(0, 4);
@@ -1752,7 +1757,7 @@ if Name == " " then Name = "" end
 					Dropdown["3c"]["BackgroundTransparency"] = 1;
 					Dropdown["3c"]["Position"] = UDim2.new(1, 0, 0, 0);
 					Dropdown["3c"]["Visible"] = false
-					
+
 					-- StarterGui.ML.Main.Content.HomeTab.Button.Title
 					Dropdown["1freeererer"] = Instance.new("TextBox", Dropdown["37"]);
 					Dropdown["1freeererer"]["TextWrapped"] = true;
@@ -1772,7 +1777,7 @@ if Name == " " then Name = "" end
 					Dropdown["1freeererer"]["Font"] = Enum.Font.Gotham;
 					Dropdown["1freeererer"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 30);
 					Dropdown["1freeererer"]["Position"] = UDim2.new(0, 0, 0, 26)
-					
+
 					-- StarterGui.ML.Main.Content.HomeTab.Button.UICorner
 					Dropdown["1eererrerererere"] = Instance.new("UICorner", Dropdown["1freeererer"]);
 					Dropdown["1eererrerererere"]["CornerRadius"] = UDim.new(0, 4);
@@ -1781,7 +1786,7 @@ if Name == " " then Name = "" end
 					Dropdown["1eererrerererere"] = Instance.new("UIStroke", Dropdown["1freeererer"]);
 					Dropdown["1eererrerererere"]["Color"] = Color3.fromRGB(82, 82, 82);
 					Dropdown["1eererrerererere"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-					
+
 					-- StarterGui.ML.Main.Content.HomeTab.Dropdown.OptionHolder
 					Dropdown["3d"] = Instance.new("ScrollingFrame", Dropdown["37"]);
 					Dropdown["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1796,7 +1801,7 @@ if Name == " " then Name = "" end
 					Dropdown["3e"] = Instance.new("UIListLayout", Dropdown["3d"]);
 					Dropdown["3e"]["Padding"] = UDim.new(0, 6);
 					Dropdown["3e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-					
+
 					--[[ StarterGui.ML.Main.Content.HomeTab.Dropdown.OptionHolder.Option
 					Dropdown["4dreerereererer"] = Instance.new("TextButton", Dropdown["3d"]);
 					Dropdown["4dreerereererer"]["AutomaticSize"] = Enum.AutomaticSize.Y;
@@ -1842,7 +1847,7 @@ if Name == " " then Name = "" end
 							end
 						end
 					end
-					
+
 					ResizeScrollingFrame(Dropdown["3d"], Dropdown["3e"], 32)
 					if count > 0 and Dropdown.Opened == true then
 						if count > 5 then
@@ -1931,7 +1936,7 @@ if Name == " " then Name = "" end
 
 					Dropdown:Resize()
 				end
-				
+
 				--[[function Dropdown:Toggle()
 					if Dropdown.ToggleDebounce == true then return end
 					Dropdown.ToggleDebounce = true
@@ -1963,7 +1968,7 @@ if Name == " " then Name = "" end
 						end
 					end
 				end--]]
-				
+
 				function Dropdown:Remove(id)
 					if Dropdown.Items[id] ~= nil then
 						if Dropdown.CurrentItem ~= nil then
@@ -1995,7 +2000,7 @@ if Name == " " then Name = "" end
 					Dropdown.CurrentItem = nil
 					Dropdown.Items = {}
 				end
-				
+
 				function Dropdown:UpdateList(List)
 					if typeof(List) == "table" then
 						Dropdown:Clear()
@@ -2004,13 +2009,13 @@ if Name == " " then Name = "" end
 						end
 					end
 				end
-				
+
 				-- Logic
 				do
 					local function Searching()
 						local scrollingframe = Dropdown["3d"]
 						local searchbar = Dropdown["1freeererer"]
-						
+
 						local function UpdateInputOfSearchText()
 							local InputText = string.upper(searchbar.Text)
 							local counte = 0
@@ -2025,22 +2030,22 @@ if Name == " " then Name = "" end
 									task.wait()
 								end
 							end
-							
+
 							task.wait(.1)
 							Dropdown:Resize(counte)
 						end
-						
+
 						searchbar:GetPropertyChangedSignal("Text"):Connect(UpdateInputOfSearchText)
 					end
 					task.spawn(Searching);
 				end
-				
+
 				Dropdown:UpdateList(options["List"])
 				Section.ResizeFunc()
 				Dropdown:Resize()
 				return Dropdown
 			end
-			
+
 			return Section
 		end
 
@@ -4156,7 +4161,7 @@ if Name == " " then Name = "" end
 	end
 	Library.MainScreenGui = GUI["1"]
 	Library.MainScreenGuiFrame = GUI["2"]
-	
+
 	game:GetService("UserInputService").InputBegan:Connect(function(input, gpa)
 		if input.KeyCode == Enum.KeyCode.RightShift and not UIS:GetFocusedTextBox() then
 			Library.vis_toggle()
@@ -4272,7 +4277,7 @@ if Name == " " then Name = "" end
 			print("MSDOORS: Failed to convert old themes:")
 			warn(convertolde)
 		end
-		
+
 		local themelist = {}	
 		local CustomThemes = {}
 		Library.__themes_loadTheme = function(name, deleteable)
@@ -4401,7 +4406,7 @@ if Name == " " then Name = "" end
 		})
 
 		task.wait()
-		
+
 		local loadthemes, loadthemee = pcall(function()
 			Library.__loadtheme()
 		end)
@@ -4409,7 +4414,7 @@ if Name == " " then Name = "" end
 			print("MSDOORS: Failed to load current theme:")
 			warn(loadthemee)
 		end
-		
+
 		task.wait()
 		task.spawn(function()
 			Library.__themes_reloadThemesList()
@@ -4447,7 +4452,7 @@ if Name == " " then Name = "" end
 			Topbar = Color3.fromRGB(0, 170, 0)
 		})
 	end)
-	
+
 	pcall(function() Library.MainScreenGuiFrame.Visible = true; end)
 	pcall(function() Library.show() end)
 	return GUI
