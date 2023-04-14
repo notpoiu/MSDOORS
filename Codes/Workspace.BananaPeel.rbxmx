@@ -1,0 +1,621 @@
+<roblox xmlns:xmime="https://www.w3.org/2005/05/xmlmime" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.roblox.com/roblox.xsd" version="4">
+<Meta name="ExplicitAutoJoints">true</Meta>
+<External>null</External>
+<External>nil</External>
+<Item class="Part" referent="RBX85GA7PYSLBMO71PDTU869HGU3FMCJZAN">
+<Properties>
+<float name="RightParamB">0.5</float>
+<bool name="DraggingV1">false</bool>
+<token name="NetworkOwnershipRule">0</token>
+<Vector3 name="Velocity">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<token name="RightSurface">0</token>
+<float name="Mass">0.8400000333786011</float>
+<bool name="archivable">true</bool>
+<Vector3 name="size">
+                <X>1</X>
+                <Y>1.2000000476837158</Y>
+                <Z>1</Z>
+                </Vector3>
+<token name="FormFactor">1</token>
+<float name="FrontParamB">0.5</float>
+<float name="SpecificGravity">0.699999988079071</float>
+<Vector3 name="ExtentsSize">
+                <X>1</X>
+                <Y>1.2000000476837158</Y>
+                <Z>1</Z>
+                </Vector3>
+<string name="CollisionGroup">Default</string>
+<token name="BackSurfaceInput">0</token>
+<Vector3 name="AssemblyLinearVelocity">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<float name="Elasticity">0.5</float>
+<float name="FrontParamA">-0.5</float>
+<token name="shape">1</token>
+<string name="MaterialVariant"></string>
+<string name="CollisionGroupReplicate"></string>
+<float name="RightParamA">-0.5</float>
+<Color3 name="Color">
+                <R>0.6392157077789307</R>
+                <G>0.6352941393852234</G>
+                <B>0.6470588445663452</B>
+                </Color3>
+<bool name="Massless">false</bool>
+<int name="CollisionGroupId">0</int>
+<string name="Attributes"></string>
+<bool name="Locked">false</bool>
+<token name="Material">256</token>
+<Vector3 name="Size">
+                <X>1</X>
+                <Y>1.2000000476837158</Y>
+                <Z>1</Z>
+                </Vector3>
+<token name="BackSurface">0</token>
+<int name="LocalTransparencyModifier">0</int>
+<Vector3 name="Rotation">
+                <X>0.07999999821186066</X>
+                <Y>-0.5299999713897705</Y>
+                <Z>-0.009999999776482582</Z>
+                </Vector3>
+<int name="ReceiveAge">0</int>
+<string name="Name">BananaPeel</string>
+<int name="ResizeIncrement">1</int>
+<bool name="RobloxLocked">false</bool>
+<float name="LeftParamA">-0.5</float>
+<bool name="CastShadow">true</bool>
+<CoordinateFrame name="PivotOffset">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R00>1</R00>
+                <R01>0</R01>
+                <R02>0</R02>
+                <R10>0</R10>
+                <R11>1</R11>
+                <R12>0</R12>
+                <R20>-0</R20>
+                <R21>-0</R21>
+                <R22>-1</R22>
+                </CoordinateFrame>
+<CoordinateFrame name="Origin">
+                <X>-32.500850677490234</X>
+                <Y>-3.349285840988159</Y>
+                <Z>3138.00048828125</Z>
+                <R00>0.9999577403068542</R00>
+                <R01>-0.00012647711264435202</R01>
+                <R02>0.009191002696752548</R02>
+                <R10>0.00011424641706980765</R10>
+                <R11>0.9999991059303284</R11>
+                <R12>0.00133123726118356</R12>
+                <R20>0.009191161952912807</R20>
+                <R21>0.0013301309663802385</R21>
+                <R22>-0.9999568462371826</R22>
+                </CoordinateFrame>
+<token name="TopSurfaceInput">0</token>
+<int name="LocalSimulationValidation">0</int>
+<token name="FrontSurfaceInput">0</token>
+<Vector3 name="AssemblyCenterOfMass">
+                <X>-32.500850677490234</X>
+                <Y>-3.349285840988159</Y>
+                <Z>3138.00048828125</Z>
+                </Vector3>
+<string name="className">Part</string>
+<float name="BottomParamB">0.5</float>
+<Ref name="AssemblyRootPart">null</Ref>
+<Vector3 name="RotVelocity">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<Vector3 name="AssemblyAngularVelocity">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<!--We are not saving BrickColor type properties! This might hurt Color3 / Color3uint8 properties.-->
+<token name="BottomSurfaceInput">0</token>
+<bool name="CanCollide">true</bool>
+<int name="RootPriority">0</int>
+<string name="MaterialVariantSerialized"></string>
+<token name="PropertyStatusStudio">0</token>
+<token name="LeftSurface">0</token>
+<int name="DataCost">58</int>
+<int name="Transparency">0</int>
+<CoordinateFrame name="ExtentsCFrame">
+                <X>-32.500850677490234</X>
+                <Y>-3.349285840988159</Y>
+                <Z>3138.00048828125</Z>
+                <R00>0.9999577403068542</R00>
+                <R01>-0.00012647711264435202</R01>
+                <R02>0.009191002696752548</R02>
+                <R10>0.00011424641706980765</R10>
+                <R11>0.9999991059303284</R11>
+                <R12>0.00133123726118356</R12>
+                <R20>0.009191161952912807</R20>
+                <R21>0.0013301309663802385</R21>
+                <R22>-0.9999568462371826</R22>
+                </CoordinateFrame>
+<string name="ClassName">Part</string>
+<Vector3 name="Orientation">
+                <X>0.07999999821186066</X>
+                <Y>-0.5299999713897705</Y>
+                <Z>-0.009999999776482582</Z>
+                </Vector3>
+<int name="Reflectance">0</int>
+<float name="BackParamB">0.5</float>
+<bool name="Archivable">true</bool>
+<CoordinateFrame name="Pivot Offset">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R00>1</R00>
+                <R01>0</R01>
+                <R02>0</R02>
+                <R10>0</R10>
+                <R11>1</R11>
+                <R12>0</R12>
+                <R20>-0</R20>
+                <R21>-0</R21>
+                <R22>-1</R22>
+                </CoordinateFrame>
+<!--We are not saving Faces type properties! This is literally useless, lol.-->
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Vector3 name="CenterOfMass">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<int name="SourceAssetId">-1</int>
+<float name="LeftParamB">0.5</float>
+<bool name="NetworkIsSleeping">true</bool>
+<token name="LeftSurfaceInput">0</token>
+<float name="Friction">0.30000001192092896</float>
+<Ref name="Parent">null</Ref>
+<float name="TopParamB">0.5</float>
+<float name="BottomParamA">-0.5</float>
+<token name="formFactorRaw">1</token>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<float name="AssemblyMass">0.8400000333786011</float>
+<token name="formFactor">1</token>
+<token name="BottomSurface">4</token>
+<Vector3 name="Position">
+                <X>-32.500850677490234</X>
+                <Y>-3.349285840988159</Y>
+                <Z>3138.00048828125</Z>
+                </Vector3>
+<float name="BackParamA">-0.5</float>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<PhysicalProperties name="CurrentPhysicalProperties">
+                <CustomPhysics>false</CustomPhysics>
+                </PhysicalProperties>
+<int name="numExpectedDirectChildren">0</int>
+<float name="TopParamA">-0.5</float>
+<token name="FrontSurface">0</token>
+<CoordinateFrame name="CFrame">
+                <X>-32.500850677490234</X>
+                <Y>-3.349285840988159</Y>
+                <Z>3138.00048828125</Z>
+                <R00>0.9999577403068542</R00>
+                <R01>-0.00012647711264435202</R01>
+                <R02>0.009191002696752548</R02>
+                <R10>0.00011424641706980765</R10>
+                <R11>0.9999991059303284</R11>
+                <R12>0.00133123726118356</R12>
+                <R20>0.009191161952912807</R20>
+                <R21>0.0013301309663802385</R21>
+                <R22>-0.9999568462371826</R22>
+                </CoordinateFrame>
+<!--We are not saving BrickColor type properties! This might hurt Color3 / Color3uint8 properties.-->
+<BinaryString name="AttributesReplicate"></BinaryString>
+<bool name="Anchored">false</bool>
+<token name="TopSurface">3</token>
+<token name="Shape">1</token>
+<token name="RightSurfaceInput">0</token>
+</Properties>
+
+<Item class="SpecialMesh" referent="RBXGYNR3ZBNWPVY5KOCMZANWK2X1X7F2E09">
+<Properties>
+<Ref name="Parent">null</Ref>
+<int name="DataCost">4</int>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<Vector3 name="VertexColor">
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+                </Vector3>
+<string name="Attributes"></string>
+<bool name="Archivable">true</bool>
+<Vector3 name="Offset">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                </Vector3>
+<string name="Name">Mesh</string>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<int name="SourceAssetId">-1</int>
+<Content name="MeshId"><url>http://www.roblox.com/asset/?id=28937301</url></Content>
+<int name="numExpectedDirectChildren">0</int>
+<Content name="TextureId"><url>http://www.roblox.com/asset/?id=28937670</url></Content>
+<string name="ClassName">SpecialMesh</string>
+<Vector3 name="Scale">
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+                </Vector3>
+<token name="MeshType">5</token>
+<string name="className">SpecialMesh</string>
+<bool name="RobloxLocked">false</bool>
+<token name="PropertyStatusStudio">0</token>
+<bool name="archivable">true</bool>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+</Properties>
+<!--RBXGYNR3ZBNWPVY5KOCMZANWK2X1X7F2E09-->
+</Item>
+
+
+<Item class="ObjectValue" referent="RBXIAPAVZQL5M8Z7RK3DJZX6F62ACVY24G9">
+<Properties>
+<string name="className">ObjectValue</string>
+<bool name="archivable">true</bool>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Ref name="Parent">null</Ref>
+<int name="SourceAssetId">-1</int>
+<token name="PropertyStatusStudio">0</token>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<int name="DataCost">4</int>
+<string name="Name">creator</string>
+<string name="Attributes"></string>
+<string name="ClassName">ObjectValue</string>
+<bool name="RobloxLocked">false</bool>
+<bool name="Archivable">true</bool>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<int name="numExpectedDirectChildren">0</int>
+</Properties>
+<!--RBXIAPAVZQL5M8Z7RK3DJZX6F62ACVY24G9-->
+</Item>
+
+
+<Item class="Sound" referent="RBXT2D1HK5J198Z38MEHUUMI381UJPIBY61">
+<Properties>
+<int name="Pitch">1</int>
+<int name="EmitterSize">10</int>
+<token name="RollOffMode">0</token>
+<NumberRange name="PlaybackRegion">0 60000</NumberRange>
+<int name="TimePosition">0</int>
+<int name="xmlRead_MinDistance_3">10</int>
+<int name="Volume">1</int>
+<bool name="archivable">true</bool>
+<bool name="Playing">false</bool>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<bool name="IsLoaded">true</bool>
+<token name="PropertyStatusStudio">0</token>
+<int name="MaxDistance">10000</int>
+<int name="PlaybackLoudness">0</int>
+<string name="ClassName">Sound</string>
+<bool name="IsPlaying">false</bool>
+<bool name="PlaybackRegionsEnabled">false</bool>
+<bool name="IsSpatial">true</bool>
+<float name="RollOffGain">0.5041385293006897</float>
+<Ref name="Parent">null</Ref>
+<int name="SourceAssetId">-1</int>
+<int name="ChannelCount">0</int>
+<string name="Attributes"></string>
+<int name="PlaybackSpeed">1</int>
+<float name="TimeLength">1.671</float>
+<int name="RollOffMaxDistance">10000</int>
+<bool name="isPlaying">false</bool>
+<int name="DataCost">4</int>
+<Ref name="SoundGroup">null</Ref>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<int name="RollOffMinDistance">10</int>
+<NumberRange name="LoopRegion">0 60000</NumberRange>
+<bool name="RobloxLocked">false</bool>
+<bool name="Archivable">true</bool>
+<token name="UsageContextPermission">0</token>
+<int name="TimePositionReplicator">0</int>
+<bool name="Looped">false</bool>
+<int name="numExpectedDirectChildren">0</int>
+<bool name="PlayingReplicator">false</bool>
+<int name="MinDistance">10</int>
+<bool name="IsPaused">true</bool>
+<string name="Name">SlipSound</string>
+<string name="className">Sound</string>
+<Content name="SoundId"><url>http://www.roblox.com/asset/?id=28976727</url></Content>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<int name="xmlRead_MaxDistance_3">10000</int>
+<bool name="PlayOnRemove">false</bool>
+</Properties>
+<!--RBXT2D1HK5J198Z38MEHUUMI381UJPIBY61-->
+</Item>
+
+
+<Item class="Attachment" referent="RBX9L3FSN2DG3EYS7ATDZM85SULFIWIPJXZ">
+<Properties>
+<bool name="Visible">false</bool>
+<Vector3 name="WorldOrientation">
+                <X>-0.007246604189276695</X>
+                <Y>-90.526611328125</Y>
+                <Z>-0.07621090859174728</Z>
+                </Vector3>
+<CoordinateFrame name="CFrame">
+                <X>0</X>
+                <Y>2.921675443649292</Y>
+                <Z>0</Z>
+                <R00>0</R00>
+                <R01>0</R01>
+                <R02>1</R02>
+                <R10>0</R10>
+                <R11>1</R11>
+                <R12>0</R12>
+                <R20>1</R20>
+                <R21>-0</R21>
+                <R22>-0</R22>
+                </CoordinateFrame>
+<Vector3 name="WorldSecondaryAxis">
+                <X>0.00011424641706980765</X>
+                <Y>0.9999991059303284</Y>
+                <Z>0.00133123726118356</Z>
+                </Vector3>
+<Vector3 name="Position">
+                <X>0</X>
+                <Y>2.921675443649292</Y>
+                <Z>0</Z>
+                </Vector3>
+<Vector3 name="Orientation">
+                <X>-0</X>
+                <Y>-90</Y>
+                <Z>0</Z>
+                </Vector3>
+<Vector3 name="SecondaryAxis">
+                <X>0</X>
+                <Y>1</Y>
+                <Z>0</Z>
+                </Vector3>
+<CoordinateFrame name="WorldCFrame">
+                <X>-32.50051498413086</X>
+                <Y>-0.4276130199432373</Y>
+                <Z>3138.00439453125</Z>
+                <R00>-0.009191161952912807</R00>
+                <R01>-0.0013301309663802385</R01>
+                <R02>0.9999568462371826</R02>
+                <R10>0.00011424641706980765</R10>
+                <R11>0.9999991059303284</R11>
+                <R12>0.00133123726118356</R12>
+                <R20>0.9999577403068542</R20>
+                <R21>-0.00012647711264435202</R21>
+                <R22>0.009191002696752548</R22>
+                </CoordinateFrame>
+<string name="ClassName">Attachment</string>
+<int name="DataCost">4</int>
+<bool name="Archivable">true</bool>
+<Vector3 name="WorldRotation">
+                <X>-179.21160888671875</X>
+                <Y>-89.4732437133789</Y>
+                <Z>-179.287841796875</Z>
+                </Vector3>
+<Vector3 name="WorldPosition">
+                <X>-32.50051498413086</X>
+                <Y>-0.4276130199432373</Y>
+                <Z>3138.00439453125</Z>
+                </Vector3>
+<Ref name="Parent">null</Ref>
+<int name="numExpectedDirectChildren">0</int>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Vector3 name="Axis">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1</Z>
+                </Vector3>
+<Vector3 name="WorldAxis">
+                <X>-0.009191161952912807</X>
+                <Y>-0.0013301309663802385</Y>
+                <Z>0.9999568462371826</Z>
+                </Vector3>
+<token name="PropertyStatusStudio">0</token>
+<int name="SourceAssetId">-1</int>
+<Vector3 name="Rotation">
+                <X>-0</X>
+                <Y>-90</Y>
+                <Z>0</Z>
+                </Vector3>
+<string name="Attributes"></string>
+<string name="Name">EnterAttachment</string>
+<string name="className">Attachment</string>
+<bool name="RobloxLocked">false</bool>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<bool name="archivable">true</bool>
+</Properties>
+<!--RBX9L3FSN2DG3EYS7ATDZM85SULFIWIPJXZ-->
+</Item>
+
+
+<Item class="Attachment" referent="RBX9EIOCTS759FGDQTF949PUP3K23A4YUCI">
+<Properties>
+<bool name="Visible">false</bool>
+<Vector3 name="WorldOrientation">
+                <X>-0.007246604189276695</X>
+                <Y>-90.526611328125</Y>
+                <Z>-0.07621090859174728</Z>
+                </Vector3>
+<CoordinateFrame name="CFrame">
+                <X>0</X>
+                <Y>2.921675443649292</Y>
+                <Z>0</Z>
+                <R00>0</R00>
+                <R01>0</R01>
+                <R02>1</R02>
+                <R10>0</R10>
+                <R11>1</R11>
+                <R12>0</R12>
+                <R20>1</R20>
+                <R21>-0</R21>
+                <R22>-0</R22>
+                </CoordinateFrame>
+<Vector3 name="WorldSecondaryAxis">
+                <X>0.00011424641706980765</X>
+                <Y>0.9999991059303284</Y>
+                <Z>0.00133123726118356</Z>
+                </Vector3>
+<Vector3 name="Position">
+                <X>0</X>
+                <Y>2.921675443649292</Y>
+                <Z>0</Z>
+                </Vector3>
+<Vector3 name="Orientation">
+                <X>-0</X>
+                <Y>-90</Y>
+                <Z>0</Z>
+                </Vector3>
+<Vector3 name="SecondaryAxis">
+                <X>0</X>
+                <Y>1</Y>
+                <Z>0</Z>
+                </Vector3>
+<CoordinateFrame name="WorldCFrame">
+                <X>-32.50051498413086</X>
+                <Y>-0.4276130199432373</Y>
+                <Z>3138.00439453125</Z>
+                <R00>-0.009191161952912807</R00>
+                <R01>-0.0013301309663802385</R01>
+                <R02>0.9999568462371826</R02>
+                <R10>0.00011424641706980765</R10>
+                <R11>0.9999991059303284</R11>
+                <R12>0.00133123726118356</R12>
+                <R20>0.9999577403068542</R20>
+                <R21>-0.00012647711264435202</R21>
+                <R22>0.009191002696752548</R22>
+                </CoordinateFrame>
+<string name="ClassName">Attachment</string>
+<int name="DataCost">4</int>
+<bool name="Archivable">true</bool>
+<Vector3 name="WorldRotation">
+                <X>-179.21160888671875</X>
+                <Y>-89.4732437133789</Y>
+                <Z>-179.287841796875</Z>
+                </Vector3>
+<Vector3 name="WorldPosition">
+                <X>-32.50051498413086</X>
+                <Y>-0.4276130199432373</Y>
+                <Z>3138.00439453125</Z>
+                </Vector3>
+<Ref name="Parent">null</Ref>
+<int name="numExpectedDirectChildren">0</int>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Vector3 name="Axis">
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1</Z>
+                </Vector3>
+<Vector3 name="WorldAxis">
+                <X>-0.009191161952912807</X>
+                <Y>-0.0013301309663802385</Y>
+                <Z>0.9999568462371826</Z>
+                </Vector3>
+<token name="PropertyStatusStudio">0</token>
+<int name="SourceAssetId">-1</int>
+<Vector3 name="Rotation">
+                <X>-0</X>
+                <Y>-90</Y>
+                <Z>0</Z>
+                </Vector3>
+<string name="Attributes"></string>
+<string name="Name">ExitAttachment</string>
+<string name="className">Attachment</string>
+<bool name="RobloxLocked">false</bool>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<bool name="archivable">true</bool>
+</Properties>
+<!--RBX9EIOCTS759FGDQTF949PUP3K23A4YUCI-->
+</Item>
+
+
+<Item class="Folder" referent="RBXO1Q09J27UU0WAYHSI6SD4YNOUB4GLOQD">
+<Properties>
+<string name="Name">Animations</string>
+<bool name="archivable">true</bool>
+<string name="ClassName">Folder</string>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Ref name="Parent">null</Ref>
+<int name="SourceAssetId">-1</int>
+<token name="PropertyStatusStudio">0</token>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<int name="ReplicatedGuiInsertionOrder">2147483647</int>
+<int name="DataCost">9</int>
+<string name="Attributes"></string>
+<string name="className">Folder</string>
+<bool name="RobloxLocked">false</bool>
+<int name="numExpectedDirectChildren">0</int>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<bool name="Archivable">true</bool>
+</Properties>
+
+<Item class="Animation" referent="RBXICRE3C1JFRI8DT2LMZNRMX1OUGHMZQ1H">
+<Properties>
+<string name="className">Animation</string>
+<bool name="archivable">true</bool>
+<int name="numExpectedDirectChildren">0</int>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Ref name="Parent">null</Ref>
+<int name="DataCost">5</int>
+<token name="PropertyStatusStudio">0</token>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<string name="Name">Trip</string>
+<int name="SourceAssetId">-1</int>
+<string name="Attributes"></string>
+<string name="ClassName">Animation</string>
+<bool name="RobloxLocked">false</bool>
+<Content name="AnimationId"><url>rbxassetid://12957500989</url></Content>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<bool name="Archivable">true</bool>
+</Properties>
+<!--RBXICRE3C1JFRI8DT2LMZNRMX1OUGHMZQ1H-->
+</Item>
+
+<!--RBXO1Q09J27UU0WAYHSI6SD4YNOUB4GLOQD-->
+
+</Item>
+
+
+<Item class="TouchTransmitter" referent="RBX54W9NWN7F2QSR4MV95NGHRG12WAWZQSG">
+<Properties>
+<string name="className">TouchTransmitter</string>
+<bool name="Archivable">true</bool>
+<BinaryString name="Tags"><![CDATA[]]></BinaryString>
+<Ref name="Parent">null</Ref>
+<int name="SourceAssetId">-1</int>
+<token name="PropertyStatusStudio">0</token>
+<BinaryString name="AttributesReplicate"></BinaryString>
+<bool name="archivable">true</bool>
+<string name="Name">TouchInterest</string>
+<string name="Attributes"></string>
+<string name="ClassName">TouchTransmitter</string>
+<bool name="RobloxLocked">false</bool>
+<int name="DataCost">4</int>
+<BinaryString name="AttributesSerialize"><![CDATA[]]></BinaryString>
+<int name="numExpectedDirectChildren">0</int>
+</Properties>
+<!--RBX54W9NWN7F2QSR4MV95NGHRG12WAWZQSG-->
+</Item>
+
+<!--RBX85GA7PYSLBMO71PDTU869HGU3FMCJZAN-->
+
+
+
+
+
+
+
+</Item>
+
+<SharedStrings>
+</SharedStrings>
+</roblox>
