@@ -1,7 +1,7 @@
 
 -- by sponguss, i just fixed some stuff
 return function(_, CanEntityKill)
-local L_1_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/Codes/Entities/Doors_Entity_Spawner.lua"--[["https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"--]]))()
+local L_1_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/Codes/Entities/Doors_Entity_Spawner.lua"--[["https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"--]]))()
 local L_2_ = L_1_.createEntity({
 	CustomName = "Rush",
 	Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true",
