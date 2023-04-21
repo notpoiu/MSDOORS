@@ -1,4 +1,4 @@
-local isMobile = false
+--[[local isMobile = false
 local mobiletoggles,mobiletoggleerr = pcall(function()
 	local platform = game:GetService("UserInputService"):GetPlatform()
 	isMobile = (platform == Enum.Platform.Android or platform == Enum.Platform.IOS)
@@ -16,4 +16,7 @@ else
 		print("MSDOORS: Loading PC version...")
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
 	end
-end
+end--]]
+
+print("MSDOORS: Loading...")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
