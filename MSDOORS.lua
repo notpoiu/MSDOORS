@@ -1,3 +1,6 @@
+print("MSDOORS: Loading...")
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19077/MSDOORS.lua'))()
+
 --[[local isMobile = false
 local mobiletoggles,mobiletoggleerr = pcall(function()
 	local platform = game:GetService("UserInputService"):GetPlatform()
@@ -17,6 +20,3 @@ else
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
 	end
 end--]]
-
-print("MSDOORS: Loading...")
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/MSDOORS.lua"),true))()
