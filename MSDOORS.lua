@@ -1,5 +1,5 @@
 print("MSDOORS: Loading...")
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19077/MSDOORS.lua'))()
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19114/MSDOORSMain.lua'))()
 
 --[[local isMobile = false
 local mobiletoggles,mobiletoggleerr = pcall(function()
