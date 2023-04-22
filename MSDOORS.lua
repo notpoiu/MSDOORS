@@ -4,4 +4,5 @@ game:GetService("GuiService").ErrorMessageChanged:Connect(function(a)
 		game.Players.LocalPlayer:Kick("MSDOORS: Your executor is not supported. Join the discord server (.gg/eeHV6Tsfwd)!")
 	end 
 end)
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19135/MSDOORS.lua'))()
+
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19151/MSDOORSMain.lua'))()
