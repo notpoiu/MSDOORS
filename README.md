@@ -3,9 +3,9 @@ discord: https://discord.gg/msdoors <br>
 -- MSDOORS
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
 ```
-<br>
 
-## SUPPORTED EXECUTORS
+Executors: <br>
+## SUPPORTED 
 ```diff
 + [PC]:
    Paid:
@@ -19,7 +19,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
 ```
 *Other executors are not tested and the script may not work.*
 
-## NOT SUPPORTED EXECUTORS 
+## NOT SUPPORTED
 ```diff
 Script-Ware Mac
 JJSploit & WeAreDevs API
