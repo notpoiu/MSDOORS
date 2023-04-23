@@ -9,7 +9,7 @@ local KickMessageHandler = game:GetService("GuiService").ErrorMessageChanged:Con
 	    if EXE:match("fluxus") and (EXE:match("android") or EXE:match("mobile")) then 
             KickPlr("[MSDOORS]\nYou are using an outdated version of Fluxus Android. Join the discord server (.gg/eeHV6Tsfwd) if you need any help!") 
         else 
-            KickPlr("[MSDOORS]\nYour executor is not supported. Join the discord server (.gg/eeHV6Tsfwd)!") 
+            KickPlr("[MSDOORS]\nYour executor is not supported. Join the discord server (.gg/eeHV6Tsfwd)! [error: Invalid HWID]") 
         end
     end
 end)
