@@ -13,9 +13,10 @@ Executors: <br>
       Script-Ware Windows - (99%)
    Free:
       KRNL (100%) - RECOMMENDED
+      Fluxus PC - (80%)
 + [ANDROID]:
    Free:
-      Fluxus Fluxus Android - (100%)
+      Fluxus Android - (100%)
 ```
 *Other executors are not tested and the script may not work.*
 
