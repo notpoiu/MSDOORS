@@ -1,5 +1,5 @@
 print("MSDOORS: Loading...")
-local LoadstringURL = 'https://scripts.luawl.com/hosted/5055/19216/MSDOORSmain.lua'
+local LoadstringURL = 'https://scripts.luawl.com/hosted/5055/19220/msdoorsMain.lua'
 
 function KickPlr(Message)local gui = game.CoreGui.RobloxPromptGui.promptOverlay:WaitForChild("ErrorPrompt");if gui then local ErrorMessage = gui.MessageArea.ErrorFrame.ErrorMessage;ErrorMessage.Text = Message;gui.Size = UDim2.new(0, gui.Size.X.Offset, 0, 50 + game:GetService("TextService"):GetTextSize(ErrorMessage.Text, ErrorMessage.TextSize, ErrorMessage.Font, (Vector2.new(gui.Size.X.Offset - 2 * 20, 1000))).Y + 1 + 36 + 20 + 2 * 20 + 1);end end
 local KickMessageHandler = game:GetService("GuiService").ErrorMessageChanged:Connect(function(kickmsg)
