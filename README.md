@@ -1,4 +1,4 @@
-**Discord: https://discord.gg/msdoors**
+**Discord: https://discord.gg/msdoors**<br>
 Script:
 ```lua
 -- MSDOORS
