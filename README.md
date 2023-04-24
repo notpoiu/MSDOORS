@@ -1,5 +1,4 @@
 **Discord: https://discord.gg/msdoors**
-
 Script:
 ```lua
 -- MSDOORS
