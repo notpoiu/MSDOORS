@@ -20,9 +20,11 @@ ANDROID:<br>
 
 ## NOT SUPPORTED
 ```
+Arceus X
+Delta
+Hydrogen
 Script-Ware Mac
 JJSploit & WeAreDevs API
-Hydrogen (Mac & Android)
 Zestra
 Vega X
 Kiwi X
