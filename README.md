@@ -36,7 +36,7 @@ EasyExploits API
 
 Byfron got released yesterday and is rolling out for everyone now.<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
-If you want to use any FPS Unlocker use the [axstin FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too. Read more in the changelogs.<br>
+If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too. Read more about the update in the changelogs.<br>
 <br>
 Here is how you can check if you have Byfron:
 ## Method 1 [Not always accurate]:
@@ -57,6 +57,7 @@ Here is how you can check if you have Byfron:
 If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) and [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
 
 # How to bypass Byfron:
+## Method 1:
 1. Close all roblox tabs opened in your browser (if you have any open).
 2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
 3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
@@ -65,3 +66,11 @@ If you want to be fully sure check Byfron with [Method 2](https://github.com/mst
 6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
 
 Credits to **[BabyHamsta](https://v3rmillion.net/member.php?action=profile&uid=334135)** for the Byfron bypass script!
+
+## Method 2:
+1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
+2. Turn off **`ReShade`** in the **`Integrations`** tab.
+3. Go to **`Installation`** tab.
+4. Select **`LIVE`** channel.
+5. Click **`Install`**.
+6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
