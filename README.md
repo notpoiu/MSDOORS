@@ -69,7 +69,7 @@ Credits to **[BabyHamsta](https://v3rmillion.net/member.php?action=profile&uid=3
 
 ## Method 2:
 1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
-2. Turn off **`ReShade`** in the **`Integrations`** tab.
+2. [Optional] Turn off **`ReShade`** in the **`Integrations`** tab.
 3. Go to **`Installation`** tab.
 4. Select **`LIVE`** channel.
 5. Click **`Install`**.
