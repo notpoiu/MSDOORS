@@ -60,6 +60,6 @@ Here is how you can check if you have Byfron:
 3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
 4. Find a **`Install`** button. Click that button and the script now installed.
 5. Go to roblox.com and click any game (it doesn't matter). Now join the game and Roblox should update.
-6. To be sure if this bypass worked use the Byfron check [Method 2]() or [Method 3]() to check if Byfron was successfully bypassed!
+6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
 
 Credits to **[BabyHamsta](https://v3rmillion.net/member.php?action=profile&uid=334135)** for the Byfron bypass script!
