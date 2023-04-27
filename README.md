@@ -36,7 +36,8 @@ EasyExploits API
 
 Byfron got released yesterday and is rolling out for everyone now.
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)
-Here is how to check if you have Byfron:
+<br><br>
+Here is how you can check if you have Byfron:
 ## Method 1 [Not always accurate]:
 1. Open this [link](https://clientsettings.roblox.com/v2/user-channel?binaryType=WindowsPlayer).
 2. If you see **`{"channelName":"LIVE"}`** you **shouldn't have**  Byfron. If you see any other channel for example `zwinplayer64` you **have** Byfron.
