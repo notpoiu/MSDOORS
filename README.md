@@ -30,3 +30,34 @@ Vega X
 Kiwi X
 EasyExploits API
 ```
+<br><br>
+# Byfron Info
+*If you are on mobile you are safe because currently there is no anti-cheat in the mobile app of Roblox.*<br>
+
+Byfron got released yesterday and is rolling out for everyone now.
+Here is how to check if you have Byfron:
+## Method 1 [Not always accurate]:
+1. Open this [link](https://clientsettings.roblox.com/v2/user-channel?binaryType=WindowsPlayer).
+2. If you see **`{"channelName":"LIVE"}`** you **shouldn't have**  Byfron. If you see any other channel for example `zwinplayer64` you **have** Byfron.
+
+## Method 2 [Accurate]:
+1. Join any Roblox game.
+2. Open up Task Manager. `CTRL+ALT+DEL, then click "Task Manager" or search "Task Manager" in the search bar`.
+3. If you see **`Roblox Game Client (32 bit)`** you **don't have** Byfron. If you see **`Roblox Game Client`** or **`Roblox Game Client (64 bit)`** you **have** Byfron.
+
+## Method 3 [100% Accurate with Method 2]:
+1. Search **`Roblox Player`** in the search bar then right-click on it and click **`Open File Location`**. It brought you to a folder.
+2. Now you should see **`Roblox Player`** file in the folder. Right-click on it and click **`Open File Location`** again.
+3. Now you are again brought to a folder.
+4. If you don't see a file called **`robloxplayerbeta.dll`** or **`robloxplayerbeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
+
+# How to bypass Byfron:
+[Optional] Before starting uninstall Roblox first.
+1. Close all roblox tabs opened in your browser (if you have any open).
+2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
+3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
+4. Find a **`Install`** button. Click that button and the script now installed.
+5. Go to roblox.com and click any game (it doesn't matter). Now join the game and Roblox should update.
+6. To be sure if this bypass worked use the Byfron check [Method 2]() or [Method 3]() to check if Byfron was successfully bypassed!
+
+Credits to **[BabyHamsta](https://v3rmillion.net/member.php?action=profile&uid=334135)** for the Byfron bypass script!
