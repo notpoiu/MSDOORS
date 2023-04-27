@@ -52,7 +52,7 @@ Here is how you can check if you have Byfron:
 1. Search **`Roblox Player`** in the search bar then right-click on it and click **`Open File Location`**. It brought you to a folder.
 2. Now you should see **`Roblox Player`** file in the folder. Right-click on it and click **`Open File Location`** again.
 3. Now you are again brought to a folder.
-4. If you don't see a file called **`robloxplayerbeta.dll`** or **`robloxplayerbeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
+4. If you don't see a file called **`RobloxPlayerBeta.dll`** or **`RobloxPlayerBeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
 
 # How to bypass Byfron:
 1. Close all roblox tabs opened in your browser (if you have any open).
