@@ -35,6 +35,7 @@ EasyExploits API
 *If you are on mobile you are safe because currently there is no anti-cheat in the mobile app of Roblox.*<br>
 
 Byfron got released yesterday and is rolling out for everyone now.
+If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)
 Here is how to check if you have Byfron:
 ## Method 1 [Not always accurate]:
 1. Open this [link](https://clientsettings.roblox.com/v2/user-channel?binaryType=WindowsPlayer).
