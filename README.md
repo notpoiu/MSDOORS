@@ -32,6 +32,7 @@ EasyExploits API
 ```
 <br><br>
 # Byfron Info
+**`BYFRON IS NOW IN THE LIVE CHANNEL! DONT USE EXECUTORS!`**<br>
 *If you are on mobile you are safe because currently there is no anti-cheat in the Roblox mobile app.*<br>
 
 Byfron got released yesterday and is rolling out for everyone now.<br>
@@ -55,9 +56,9 @@ Here is how you can check if you have Byfron:
 4. If you don't see a file called **`robloxplayerbeta.dll`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
 
 If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) and [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
-
+~~
 # How to bypass Byfron:
-## Method 1:
+## Method 1 [PATCHED]:
 1. Close all roblox tabs opened in your browser (if you have any open).
 2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
 3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
@@ -67,10 +68,11 @@ If you want to be fully sure check Byfron with [Method 2](https://github.com/mst
 
 Credits to **[BabyHamsta](https://v3rmillion.net/member.php?action=profile&uid=334135)** for the Byfron bypass script!
 
-## Method 2:
+## Method 2 [PATCHED]:
 1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
 2. [Optional] Turn off **`ReShade`** in the **`Integrations`** tab.
 3. Go to **`Installation`** tab.
 4. Select **`LIVE`** channel.
 5. Click **`Install`**.
 6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
+~~
