@@ -32,7 +32,7 @@ EasyExploits API
 ```
 <br><br>
 # Byfron Info
-**`BYFRON IS NOW IN THE LIVE CHANNEL! DONT USE EXECUTORS!`**<br>
+**`BYFRON IS NOW IN THE LIVE CHANNEL! DONT USE EXECUTORS! Everyone has Byfron now, all bypass methods are patched and the check is now useless`**<br>
 *If you are on mobile you are safe because currently there is no anti-cheat in the Roblox mobile app.*<br>
 
 Byfron got released yesterday and is rolling out for everyone now.<br>
