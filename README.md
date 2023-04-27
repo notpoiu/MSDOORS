@@ -61,7 +61,7 @@ If you want to be fully sure check Byfron with [Method 2](https://github.com/mst
 1. Close all roblox tabs opened in your browser (if you have any open).
 2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
 3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
-4. Find a **`Install`** button. Click that button and the script now installed.
+4. Find a **`Install`** button. Click that button and the script will install automaticly.
 5. Go to roblox.com and click any game (it doesn't matter). Now join the game and Roblox should update.
 6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
 
