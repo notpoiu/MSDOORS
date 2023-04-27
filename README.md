@@ -52,7 +52,6 @@ Here is how to check if you have Byfron:
 4. If you don't see a file called **`robloxplayerbeta.dll`** or **`robloxplayerbeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
 
 # How to bypass Byfron:
-[Optional] Before starting uninstall Roblox first.
 1. Close all roblox tabs opened in your browser (if you have any open).
 2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
 3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/956649076852654122/1089031453595148338/fix_channel_roblox.user.js).
