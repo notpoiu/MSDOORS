@@ -34,9 +34,10 @@ EasyExploits API
 # Byfron Info
 *If you are on mobile you are safe because currently there is no anti-cheat in the mobile app of Roblox.*<br>
 
-Byfron got released yesterday and is rolling out for everyone now.
-If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)
-<br><br>
+Byfron got released yesterday and is rolling out for everyone now.<br>
+If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
+If you want to use any FPS Unlocker use the [axstin FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too. Read more in the changelogs.<br>
+<br>
 Here is how you can check if you have Byfron:
 ## Method 1 [Not always accurate]:
 1. Open this [link](https://clientsettings.roblox.com/v2/user-channel?binaryType=WindowsPlayer).
