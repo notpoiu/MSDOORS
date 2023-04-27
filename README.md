@@ -32,7 +32,7 @@ EasyExploits API
 ```
 <br><br>
 # Byfron Info
-*If you are on mobile you are safe because currently there is no anti-cheat in the mobile app of Roblox.*<br>
+*If you are on mobile you are safe because currently there is no anti-cheat in the Roblox mobile app.*<br>
 
 Byfron got released yesterday and is rolling out for everyone now.<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
