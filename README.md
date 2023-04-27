@@ -54,7 +54,7 @@ Here is how you can check if you have Byfron:
 3. Now you are again brought to a folder.
 4. If you don't see a file called **`RobloxPlayerBeta.dll`** or **`RobloxPlayerBeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
 
-If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
+If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) and [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
 
 # How to bypass Byfron:
 1. Close all roblox tabs opened in your browser (if you have any open).
