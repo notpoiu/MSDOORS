@@ -48,11 +48,13 @@ Here is how you can check if you have Byfron:
 2. Open up Task Manager. `CTRL+ALT+DEL, then click "Task Manager" or search "Task Manager" in the search bar`.
 3. If you see **`Roblox Game Client (32 bit)`** you **don't have** Byfron. If you see **`Roblox Game Client`** or **`Roblox Game Client (64 bit)`** you **have** Byfron.
 
-## Method 3 [100% Accurate with Method 2]:
+## Method 3 [Accurate]:
 1. Search **`Roblox Player`** in the search bar then right-click on it and click **`Open File Location`**. It brought you to a folder.
 2. Now you should see **`Roblox Player`** file in the folder. Right-click on it and click **`Open File Location`** again.
 3. Now you are again brought to a folder.
 4. If you don't see a file called **`RobloxPlayerBeta.dll`** or **`RobloxPlayerBeta`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
+
+If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
 
 # How to bypass Byfron:
 1. Close all roblox tabs opened in your browser (if you have any open).
