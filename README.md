@@ -11,8 +11,7 @@ PC:<br>
 ㅤㅤㅤㅤㅤ[Synapse X - (100%)](https://x.synapse.to) - RECOMMENDED<br>
 ㅤㅤㅤㅤㅤ[Script-Ware Windows - (99%)](https://script-ware.com/)<br>
 ㅤㅤㅤFree:<br>
-ㅤㅤㅤㅤㅤ[KRNL (100%)](https://krnl.place/) - RECOMMENDED<br>
-ㅤㅤㅤㅤㅤ[Fluxus PC - (80%)](https://fluxteam.net/dl)<br>
+ㅤㅤㅤㅤㅤ[KRNL (100%)](https://krnl.place/)<br>
 ANDROID:<br>
 ㅤㅤㅤFree:<br>
 ㅤㅤㅤㅤㅤ[Fluxus Android - (100%)](https://fluxteam.net/android/)<br>
