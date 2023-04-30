@@ -12,10 +12,7 @@ PC:<br>
 ㅤㅤㅤㅤㅤ[Script-Ware Windows - (99%)](https://script-ware.com/)<br>
 ㅤㅤㅤFree:<br>
 ㅤㅤㅤㅤㅤ[KRNL (100%)](https://krnl.place/)<br>
-ANDROID:<br>
-ㅤㅤㅤFree:<br>
-ㅤㅤㅤㅤㅤ[Fluxus Android - (100%)](https://fluxteam.net/android/)<br>
-*Other executors are not tested and the script may not work.*<br>
+*ANDROID/MOBILE is not supported. Other executors are not tested and the script may not work.*<br>
 
 ## NOT SUPPORTED
 ```
