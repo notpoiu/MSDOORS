@@ -1,6 +1,7 @@
 # Features
 
-## Main
+## DOORS (Game):
+### Main
 
 - **Auto Play Again** | Automatically joins the game upon dying
 - **Auto Lobby** | Automatically goes to the lobby upon dying
@@ -36,7 +37,7 @@
 - **Restart** | Restart the game
 - **Lobby** | Leave the game and go back to the lobby
 
-## Player
+### Player
 
 - **Speed Boost** | Increases your walkspeed
 - **Noclip** | Lets you clip through walls
@@ -68,7 +69,7 @@
 - **Multiple Figures in Door 100 cutscene** | Spams the breaker prompt to spawn multiple figures in Door 100 (May be laggy)
 - **Crash Others** | Self explanatory (crashes other users and possibly you)
 
-## Visual
+### Visual
 
 - **ESP Whitelist** | What to show on ESP
 - **ESP Enabled** | Toggle for ESP to be enabled
@@ -98,7 +99,7 @@
 - **Tool Offset Z** | Y value for Tool Offset
 - **Fullbright** | Makes your game bright (Recommended)
 
-## Items
+### Items
 
 - **Selected Client Item** {
 + Vitamins | Vitamins Item
@@ -111,5 +112,5 @@
 
 # Credits
 
-- *mstudio45*: Main developer of MSDOORS
+- *mstudio45*: Main developer & Owner of MSDOORS
 - *fishlock*: Developer of MSDOORS
