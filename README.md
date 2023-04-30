@@ -16,8 +16,6 @@ PC:<br>
 
 ## NOT SUPPORTED
 ```
-Arceus X
-Delta
 Hydrogen
 Script-Ware Mac
 JJSploit & WeAreDevs API
