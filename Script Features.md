@@ -85,12 +85,12 @@
 - **Fullbright** | Makes your game bright (Recommended)
 
 [ Items ]
-- **Selected Client Item** {
-+ Vitamins | Vitamins Item
-+ Crucifix | Crucifix (DOES NOT WORK ON REAL ENTITIES)
-+ Scanner (A-1000 Tablet) | Scanner 
-+ Gummy Flashlight/Shakelight | Shakelight/Gummy Flashlight
-
+  - **Selected Client Item** {
+  + Vitamins (INF, Normal)
+  + Crucifix (DOES NOT WORK ON REAL ENTITIES)
+  + Scanner (A-1000 Tablet)
+  + Shakelight/Gummy Flashlight
+}
 - **Get Item** | Button to give you the selected item in the Selected Client Item dropdown
 
 # Credits
