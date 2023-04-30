@@ -1,8 +1,7 @@
 **Discord: https://discord.gg/msdoors** or **https://discord.gg/eeHV6Tsfwd**<br>
 # Script:
 ```lua
--- MSDOORS
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
 ```
 
 ## SUPPORTED
