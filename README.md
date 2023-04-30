@@ -25,10 +25,6 @@ Kiwi X
 EasyExploits API
 ```
 <br><br>
-# Script Features
--- list here
-
-<br><br><br>
 # Byfron Info
 **`Byfron is now released.`** and is rolling out for everyone now.<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
