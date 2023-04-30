@@ -1,2 +1,1 @@
-print("MSHUB: Loading...")
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19391/LoaderMSHUB.lua'))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
