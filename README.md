@@ -31,7 +31,7 @@ EasyExploits API
 **`The 32-bit will be disabled after the rollout will finish.`**<br>
 Enjoy using 32-bit version (ZLIVE) of Roblox until 32-bit gets disabled.<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
-If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too but use the Flag File. Read more about the update in the changelogs.<br>
+If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). Use the Flag File method to be safe. Read more about the update in the changelogs.<br>
 <br>
 Here is how you can check if you have Byfron:
 ## Method 1 [Not always accurate]:
