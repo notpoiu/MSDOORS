@@ -27,9 +27,11 @@ EasyExploits API
 ```
 <br><br>
 # Byfron Info
-**`Byfron is now released.`** and is rolling out for everyone now.<br>
+**`Byfron is now released on the global channel.`**<br>
+**`The 32-bit will be disabled after the rollout will finish.`**<br>
+Enjoy using 32-bit version (ZLIVE) of Roblox until 32-bit gets disabled.<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
-If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too. Read more about the update in the changelogs.<br>
+If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). It now works without any risk on the 64 bit version too but use the Flag File. Read more about the update in the changelogs.<br>
 <br>
 Here is how you can check if you have Byfron:
 ## Method 1 [Not always accurate]:
@@ -52,17 +54,15 @@ If you want to be fully sure check Byfron with [Method 2](https://github.com/mst
 # How to bypass Byfron:
 ## Method 1 [FIXED]:
 1. Close all roblox tabs opened in your browser (if you have any open).
-2. Install [Tampermonkey](https://www.tampermonkey.net/) extension.
-3. After you have successfully installed Tampermonkey open this [link](https://cdn.discordapp.com/attachments/1099054395842375724/1101452909507530752/fix_roblox_channel_v2.user.js).
-4. Find a **`Install`** button. Click that button and the script will install automaticly.
-5. Go to roblox.com and click any game (it doesn't matter). Now join the game and Roblox should update.
-6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
+Tutorial: https://www.youtube.com/watch?v=biKrct9hXeA
+Link: https://greasyfork.org/en/scripts/446731-auto-znext-channel
+To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
 
-## Method 2 [PATCHED]:
+## Method 2 [FIXED]:
 1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
 2. [Optional] Turn off **`ReShade`** in the **`Integrations`** tab.
 3. Go to **`Installation`** tab.
-4. Select **`LIVE`** channel.
+4. Select **`ZLIVE`** channel.
 5. Click **`Install`**.
 6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
-~~
+
