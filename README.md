@@ -50,7 +50,7 @@ Here is how you can check if you have Byfron:
 4. If you don't see a file called **`robloxplayerbeta.dll`** you **don't have** Byfron. If you see a file called that you **have** Byfron.
 
 If you want to be fully sure check Byfron with [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) and [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2).<br>
-~~
+
 # How to bypass Byfron:
 ## Method 1 [FIXED]:
 1. Close all roblox tabs opened in your browser (if you have any open).
@@ -62,7 +62,7 @@ To be sure if this bypass worked use the Byfron check [Method 2](https://github.
 1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
 2. [Optional] Turn off **`ReShade`** in the **`Integrations`** tab.
 3. Go to **`Installation`** tab.
-4. Select **`ZNEXT`** or **`ZLIVE`** channel.
-5. Click **`Install`**.
-6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
-
+4. Turn on **`Manually enter channel name`**.
+5. Type **`ZLIVE`** into the `Channel` textbox.
+6. Click **`Install`**.
+7. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
