@@ -62,7 +62,7 @@ To be sure if this bypass worked use the Byfron check [Method 2](https://github.
 1. Install [Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases) and open it.
 2. [Optional] Turn off **`ReShade`** in the **`Integrations`** tab.
 3. Go to **`Installation`** tab.
-4. Select **`ZLIVE`** channel.
+4. Select **`ZNEXT`** or **`ZLIVE`** channel.
 5. Click **`Install`**.
 6. To be sure if this bypass worked use the Byfron check [Method 2](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-2-accurate) or [Method 3](https://github.com/mstudio45/MSDOORS/blob/main/README.md#method-3-100-accurate-with-method-2) to check if Byfron was successfully bypassed!
 
