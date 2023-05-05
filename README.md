@@ -28,7 +28,7 @@ EasyExploits API
 <br><br>
 # Byfron Info
 **`Byfron is now released on the global channel.`**<br>
-**`The 32-bit is disabled, all bypasses are patched.`** [Remove the bypass script from Tampermonkey or Violentmonkey](https://streamable.com/ap67ik).<br>
+**`The 32-bit is disabled, all bypasses are patched.`** [Remove the bypass script from Tampermonkey or Violentmonkey](https://streamable.com/ap67ik).The global version will download so ***`DO NOT EXPLOIT`***<br>
 If you are detected with Byfron, it’s a HWID (Hardware ID) ban, meaning that device is fucked. Unless you simply spoof your HWID :)<br>
 If you want to use an FPS Unlocker use the [axstin's FPS Unlocker](https://github.com/axstin/rbxfpsunlocker/releases). Use the Flag File method to be safe. Read more about the update in the changelogs.<br>
 
