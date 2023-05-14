@@ -4,14 +4,6 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
 ```
 **[Script Features](https://github.com/mstudio45/MSDOORS/blob/main/Script%20Features.md)**<br>
-Executors
-[Synapse X - (100%)](https://x.synapse.to) - RECOMMENDED<br>
-[Script-Ware Windows - (99%)](https://script-ware.com/)<br>
-[KRNL - (100%)](https://krnl.place/)<br>
-[Fluxus Android - (100%)](https://fluxteam.net/android)<br>
-[Script-Ware iOS - (100%)](https://script-ware.com/ios)<br>
-*Other executors are not tested and the script may not work.*<br>
-
 ```
 [ Supported ]
    { PAID }
@@ -32,3 +24,4 @@ Vega X
 Kiwi X
 EasyExploits API
 ```
+*Other executors are not tested and the script may not work.*<br>
