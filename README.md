@@ -1,26 +1,29 @@
-# MSHub
-
+# MSHUB
 **Discord: https://discord.gg/msdoors** or **https://discord.gg/eeHV6Tsfwd**<br>
-# Script:
 ```lua
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
 ```
-
-## SUPPORTED
-PC:<br>
-ㅤㅤㅤPaid:<br>
-ㅤㅤㅤㅤㅤ[Synapse X - (100%)](https://x.synapse.to) - RECOMMENDED<br>
-ㅤㅤㅤㅤㅤ[Script-Ware Windows - (99%)](https://script-ware.com/)<br>
-ㅤㅤㅤFree:<br>
-ㅤㅤㅤㅤㅤ[KRNL - (100%)](https://krnl.place/)<br>
-MOBILE:<br>
-ㅤㅤㅤFree:<br>
-ㅤㅤㅤㅤㅤ[Fluxus Android - (100%)](https://fluxteam.net/android)<br>
-ㅤㅤㅤㅤㅤ[Script-Ware iOS - (100%)](https://script-ware.com/ios)<br>
+**[Script Features](https://github.com/mstudio45/MSDOORS/blob/main/Script%20Features.md)**<br>
+Executors
+[Synapse X - (100%)](https://x.synapse.to) - RECOMMENDED<br>
+[Script-Ware Windows - (99%)](https://script-ware.com/)<br>
+[KRNL - (100%)](https://krnl.place/)<br>
+[Fluxus Android - (100%)](https://fluxteam.net/android)<br>
+[Script-Ware iOS - (100%)](https://script-ware.com/ios)<br>
 *Other executors are not tested and the script may not work.*<br>
 
-## NOT SUPPORTED
 ```
+[ Supported ]
+   { PAID }
+     Synapse X (https://x.synapse.to) - RECOMMENDED
+     Script-Ware Windows (https://script-ware.com/)
+
+   { FREE }
+     KRNL (https://krnl.place/) - RECOMMENDED
+     Fluxus Android (https://fluxteam.net/android)
+     Script-Ware iOS (https://script-ware.com/ios)
+
+[ Not Supported ]
 Hydrogen
 Script-Ware Mac
 JJSploit & WeAreDevs API
@@ -29,6 +32,7 @@ Vega X
 Kiwi X
 EasyExploits API
 ```
+
 <br><br>
 # Byfron Info
 **`Byfron is now released on the global channel.`**<br>
