@@ -1,6 +1,6 @@
 # Features
 
-## Universal:
+## Universal
 ```diff
 [ FREE ]
 + Low Detail
@@ -33,7 +33,7 @@
 + Admin Detector
 ```
 
-## DOORS (Game):
+## DOORS (Game)
 ```diff
 [ FREE ]
 + Auto Play Again | Automatically joins the game upon dying
@@ -123,7 +123,15 @@
 + FE Banana Minigun
 ```
 
-## Build a Boat for Treasure:
+## DOORS (Lobby)
+```diff
+[ FREE ]
++ Cycle Achievements
++ Join Elevator
++ Follow Player
+```
+
+## Build a Boat for Treasure
 ```diff
 [ FREE ]
 + No Water Damage
@@ -133,7 +141,7 @@
 + Break builds (server)
 ```
 
-## Pet Simulator X:
+## Pet Simulator X
 ```diff
 [ FREE ]
 + Free Hoverboard
