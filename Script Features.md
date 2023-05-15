@@ -1,4 +1,5 @@
 # Features
+Premium doesn't have the key system.
 
 ## Universal
 ```diff
@@ -121,6 +122,7 @@
 + Spam Other Players Tools
 + FE Banana Object
 + FE Banana Minigun
++ Custom Paintings Image
 ```
 
 ## DOORS (Lobby)
