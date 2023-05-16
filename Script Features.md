@@ -119,8 +119,8 @@ Premium doesn't have the key system.
 [ PREMIUM ]
 + Speed Bypass (by Renzoo#5106)
 + Break/Delete Figure (Door 50)
-- Break Doors (by shutupue#0001)
-- Twerk
++ Break Doors (by shutupue#0001)
++ Twerk
 + Spam Other Players Tools
 + FE Banana Object
 + FE Banana Minigun
