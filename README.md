@@ -7,12 +7,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
 ```
 [ Supported ]
    { PAID }
-     Synapse X (https://x.synapse.to) - RECOMMENDED
-     Script-Ware Windows (https://script-ware.com/)
+     Synapse X (https://x.synapse.to) - RECOMMENDED [DOWN BECAUSE OF BYFRON]
+     Script-Ware Windows (https://script-ware.com/) [DOWN BECAUSE OF BYFRON]
 
    { FREE }
-     KRNL (https://krnl.place/) - RECOMMENDED
-     Fluxus Android (https://fluxteam.net/android)
+     KRNL (https://krnl.place/) - RECOMMENDED [DOESN'T WORK BECAUSE OF BYFRON]
+     Fluxus UWP (PC), Android (https://fluxteam.net)
      Script-Ware iOS (https://script-ware.com/ios)
 
 [ Not Supported ]
