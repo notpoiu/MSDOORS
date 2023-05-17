@@ -2,6 +2,7 @@ local Settings = {
 	TimeVariance = 0.07;
 	ComparisonChecks = 1;
 	JumpWhenStuck = true;
+	Color = Color3.fromRGB(255, 139, 0);
 };
 
 local PathfindingService = game:GetService("PathfindingService");
@@ -60,10 +61,7 @@ local function CreateVisualWaypoints(Waypoints)
 		local VisualWaypointClone = VisualWaypoint:Clone();
 		VisualWaypointClone.Position = Waypoint.Position;
 		VisualWaypointClone.Parent = workspace;
-		VisualWaypointClone.Color =
-			(Waypoint == Waypoints[#Waypoints] and Color3.fromRGB(0, 255, 0))
-			or (Waypoint.Action == Enum.PathWaypointAction.Jump and Color3.fromRGB(255, 0, 0))
-			or Color3.fromRGB(255, 139, 0);
+		VisualWaypointClone.Color = Settings.Color;
 		table.insert(VisualWaypoints, VisualWaypointClone);
 	end
 
@@ -194,7 +192,11 @@ local function ComparePosition(self)
 		DeclareError(self, self.ErrorType.AgentStuck);
 	end
 end
-
+			
+function Path.ChangeVisualizeColor(InputColor)
+		if typeof(InputColor) == "Color3" then Settings.Color end
+end	
+			
 function Path.GetNearestCharacter(FromPosition)
 	local Character, Distance = nil, math.huge;
 
