@@ -194,7 +194,7 @@ local function ComparePosition(self)
 end
 			
 function Path.ChangeVisualizeColor(InputColor)
-		if typeof(InputColor) == "Color3" then Settings.Color end
+	if typeof(InputColor) == "Color3" then Settings.Color = InputColor end
 end	
 			
 function Path.GetNearestCharacter(FromPosition)
