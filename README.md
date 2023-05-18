@@ -9,6 +9,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
    { PAID }
      Synapse X (https://x.synapse.to) - RECOMMENDED [DOWN BECAUSE OF BYFRON]
      Script-Ware Windows (https://script-ware.com/) [DOWN BECAUSE OF BYFRON]
+     Script-Ware Mac (https://script-ware.com/)
+
 
    { FREE }
      KRNL (https://krnl.place/) - RECOMMENDED [DOESN'T WORK BECAUSE OF BYFRON]
@@ -17,7 +19,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
 
 [ Not Supported ]
 Hydrogen
-Script-Ware Mac
 JJSploit & WeAreDevs API
 Zestra
 Vega X
