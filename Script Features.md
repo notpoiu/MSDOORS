@@ -117,10 +117,11 @@ Premium doesn't have the key system.
 + Get Item | Button to give you the selected item in the Selected Client Item dropdown
 
 [ PREMIUM ]
-+ Speed Bypass (by Renzoo#5106)
++ Speed Bypass
 + Break/Delete Figure (Door 50)
-+ Break Doors (by shutupue#0001)
++ Break Doors
 + Twerk
++ Auto Doors (even room 100)
 + Spam Other Players Tools
 + FE Banana Object
 + FE Banana Minigun
