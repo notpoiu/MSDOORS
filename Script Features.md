@@ -58,6 +58,7 @@ Premium doesn't have the key system.
 + Entity Notifiers (CHAT MSG) | Notifies everyone in the game when an entity spawns via chat
 + Chat Msg | Message to be used in the chat
 
++ No Cutscenes | Self explanatory (use if you are lagging during cutscenes)
 + Low Detail | Makes the game low quality
 + No Gate | Removes the gate from lever mazes
 + No Puzzle | Removes the fireplace from painting puzzle rooms
@@ -66,6 +67,7 @@ Premium doesn't have the key system.
 + Instant Leave | Instantly leaves the game when you die
 + Restart | Restart the game
 + Lobby | Leave the game and go back to the lobby
++ Auto Doors to 99 | Self explanatory
 
 + Speed Boost | Increases your walkspeed
 + Noclip | Lets you clip through walls
@@ -162,6 +164,26 @@ Premium doesn't have the key system.
 
 [ PREMIUM ]
 - Currently nothing
+```
+
+## PLS DONATE
+```diff
+[ FREE ]
++ Auto Claim Stand
++ Auto Change Goal
++ Rainbow Text
+
++ Per Robux {
+Spinning | Will make you spin and the spin speed will increase on how much robux you have got donated
+Jumps | Will make you jump on every donation and will jumps will increase on how much robux you have got donated
+}
+
+
++ Auto Thanks
++ Auto Beg
+
++ Webhooks
++ Webhook on Donations
 ```
 
 # Credits
