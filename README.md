@@ -17,6 +17,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
      Script-Ware iOS (https://script-ware.com/ios)
 
 [ Not Supported ]
-Delta, Hydrogen, JJSploit & WeAreDevs API, Zestra, Vega X, Kiwi X, EasyExploits API
+Delta
+Electron
+Hydrogen
+JJSploit & WeAreDevs API
+Zestra
+Vega X
+Kiwi X
+EasyExploits API
 ```
 *Other executors are not tested and the script may not work.*<br>
