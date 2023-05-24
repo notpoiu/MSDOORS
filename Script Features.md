@@ -1,5 +1,5 @@
 # Features
-Premium doesn't have the key system.
+MSHUB+ doesn't have the key system.
 
 ## Universal
 ```diff
@@ -30,7 +30,7 @@ Premium doesn't have the key system.
 + Set time to Night
 + No Blur
 
-[ PREMIUM ]
+[ MSHUB+ ]
 + Admin Detector
 ```
 
@@ -118,7 +118,7 @@ Premium doesn't have the key system.
 }
 + Get Item | Button to give you the selected item in the Selected Client Item dropdown
 
-[ PREMIUM ]
+[ MSHUB+ ]
 + Speed Bypass
 + Break/Delete Figure (Door 50)
 + Break Doors
@@ -132,7 +132,6 @@ Premium doesn't have the key system.
 
 ## DOORS (Lobby)
 ```diff
-[ FREE ]
 + Cycle Achievements
 + Join Elevator
 + Follow Player
@@ -144,7 +143,7 @@ Premium doesn't have the key system.
 + No Water Damage
 + Autofarm
 
-[ PREMIUM ]
+[ MSHUB+ ]
 + Break builds (server)
 ```
 
@@ -162,28 +161,33 @@ Premium doesn't have the key system.
 
 + Webhooks
 
-[ PREMIUM ]
+[ MSHUB+ ]
 - Currently nothing
 ```
 
 ## PLS DONATE
 ```diff
 [ FREE ]
-+ Auto Claim Stand
 + Auto Change Goal
-+ Rainbow Text
+
++ Auto Claim Stand
++ Change Booth Text
++ Rainbow Text (Booth + Sign)
 
 + Per Robux {
 Spinning | Will make you spin and the spin speed will increase on how much robux you have got donated
 Jumps | Will make you jump on every donation and will jumps will increase on how much robux you have got donated
 }
 
++ Change Sign Text
 
 + Auto Thanks
 + Auto Beg
 
 + Webhooks
-+ Webhook on Donations
+
+[ MSHUB+ ]
+- Currently nothing
 ```
 
 # Credits
