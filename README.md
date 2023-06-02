@@ -13,17 +13,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
 
    { FREE }
      KRNL (https://krnl.place/) - RECOMMENDED [DOESN'T WORK BECAUSE OF BYFRON]
-     Fluxus UWP (PC), Android (https://fluxteam.net)
+     Fluxus UWP (PC), Android (https://fluxteam.net) - RECOMMENDED
+     Electron (UWP, https://ryos.lol/)
      Script-Ware iOS (https://script-ware.com/ios)
 
 [ Not Supported ]
-Delta
-Electron
-Hydrogen
-JJSploit & WeAreDevs API
-Zestra
-Vega X
-Kiwi X
-EasyExploits API
+Delta, Hydrogen, JJSploit & WeAreDevs API, Zestra, Vega X, Kiwi X, EasyExploits API
 ```
 *Other executors are not tested and the script may not work.*<br>
