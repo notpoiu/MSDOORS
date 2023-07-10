@@ -72,10 +72,10 @@ if game:GetService("Workspace").Lobby.LobbyElevators:FindFirstChild("GameElevato
 		end
 		task.wait(1)
 		if teleported == false then
-			normalmessage("MSDOORS", "SUPER HARD MODE elevator are full, retrying...", 2)
+			normalmessage("MSHUB", "SUPER HARD MODE elevator are full, retrying...", 2)
 		end
 	until teleported == true
-	normalmessage("MSDOORS", "Joining...", 10)
+	normalmessage("MSHUB", "Joining...", 10)
 else 
-	normalmessage("MSDOORS", "You need to join a VIP server for SUPER HARD MODE.", 2)
+	normalmessage("MSHUB", "You need to join a VIP server for SUPER HARD MODE.", 2)
 end
