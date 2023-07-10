@@ -230,10 +230,6 @@ function Lib:HighlightESP(options)
 	HighlightTable.ChangeText = function(Text_)
 		if typeof(Text_) == "string" then BillboardGui.ChangeText(Text_) end
 	end
-
-	options["Model"].Destroying:Connect(function()
-		HighlightTable.Delete()
-	end)
 		
 	table.insert(ESP, HighlightTable)
 	return HighlightTable
