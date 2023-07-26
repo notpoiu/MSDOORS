@@ -78,19 +78,14 @@ function has_property(instance, property)
 end;
 function GetBillboardPart(Model)
 	local DistPart = nil
-	
-	if Model == nil or not Model then
-		return nil
-	end
+	if Model == nil or not Model then return nil; end
 	
 	if Model:IsA("Model") then 
-		DistPart = Model.PrimaryPart or Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart")  
-	elseif has_property(Model, "Position") then
-		DistPart = Model 
-	else
-		DistPart = Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart") 
-	end
-		
+        DistPart = Model.PrimaryPart or Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart")  
+    else
+        DistPart = Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart") or Model
+    end
+	
 	return DistPart
 end
 
