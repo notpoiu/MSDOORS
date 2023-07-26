@@ -77,16 +77,13 @@ function has_property(instance, property)
 	local clone = instance;return (pcall(function() return clone[property] end))
 end;
 function GetBillboardPart(Model)
-	local DistPart = nil
-	if Model == nil or not Model then return nil; end
-	
-	if Model:IsA("Model") then 
-        DistPart = Model.PrimaryPart or Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart")  
-    else
-        DistPart = Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart") or Model
+	if not Model then return nil end -- In case if the model got deleted instantly
+
+    if Model:IsA("Model") then
+        return (Model.PrimaryPart or Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart") or Model)
     end
-	
-	return DistPart
+
+    return (Model:FindFirstChildWhichIsA("Part") or Model:FindFirstChildWhichIsA("BasePart") or Model)
 end
 
 function Lib:CreateBillboard(TextColor, Name, Model, Color)
