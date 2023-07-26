@@ -149,6 +149,8 @@ function Lib:CreateBillboard(TextColor, Name, Model, Color)
 					end
 				end)
 			end
+		else
+			DistanceText.Visible = false
 		end
 	end)
 	
