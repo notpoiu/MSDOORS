@@ -69,8 +69,14 @@ function Lib:ClearESP()
 	ESPBillboards:ClearAllChildren()
 	ESPAdornments:ClearAllChildren()
 	
-	for _, v in pairs(ESP) do pcall(function() v.Delete();task.wait() end) end
-	for _, v in pairs(Billboards) do pcall(function() v.Delete();task.wait() end) end
+	for _, v in pairs(ESP) do 
+		if v and v.Delete ~= nil then v.Delete() end
+		task.wait() 
+	end
+	for _, v in pairs(Billboards) do 
+		if v and v.Delete ~= nil then v.Delete() end
+		task.wait() 
+	end
 end
 
 function has_property(instance, property)
@@ -142,7 +148,7 @@ function Lib:CreateBillboard(TextColor, Name, Model, Color)
 					if DistPart and DistPart.Position and DistanceText then
 						DistanceText.Text = "[".. math.round(game.Players.LocalPlayer:DistanceFromCharacter(DistPart.Position)) .. "]"
 					else
-						pcall(function() BillboardTable.DistanceHandler:Disconnect() end)	
+						if BillboardTable.DistanceHandler ~= nil then BillboardTable.DistanceHandler:Disconnect() end
 					end
 				end)
 			end
@@ -157,7 +163,7 @@ function Lib:CreateBillboard(TextColor, Name, Model, Color)
 		BillboardGui:Destroy()
 		Text = nil
 		DistanceText = nil
-		pcall(function() BillboardTable.DistanceHandler:Disconnect() end)
+		if BillboardTable.DistanceHandler ~= nil then BillboardTable.DistanceHandler:Disconnect() end
 		
 		BillboardTable.Deleted = true
 	end
@@ -404,20 +410,19 @@ function Lib:TracerESP(options)
 			DistPart = nil
 			task.wait()
 
-			for i = 1, 2 do -- idk why but this actually helps to delete tracers
-				--local s,e = pcall(function()
-				pcall(function()
+			for i = 1, 2 do
+				if Tracer then
 					Tracer.Visible = false
 					Tracer:Remove()
-					TracerTable.Handler:Disconnect()
-					-- double check to make sure its deleted
+				end
+				if Tracer then
 					Tracer.Visible = false
 					Tracer:Remove()
-					Tracer = nil
-				end)
-				--if i == 1 and e and not tostring(e):lower():match("object destroyed") then warn("Failed to delete Tracer:")warn(e) end
+				end
 			end
-
+			if TracerTable.Handler then TracerTable.Handler:Disconnect() end
+			Tracer = nil
+			
 			table.remove(ESP, table.find(ESP, TracerTable))
 			TracerTable.Deleted = true
 		end
