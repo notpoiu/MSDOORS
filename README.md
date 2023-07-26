@@ -1,5 +1,5 @@
 # MSHUB
-**Discord: https://discord.gg/msdoors** or **https://discord.gg/eeHV6Tsfwd**<br>
+**Discord: https://discord.gg/msdoors** or **https://discord.gg/J8P563m8aX**<br>
 ```lua
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
 ```
