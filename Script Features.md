@@ -1,6 +1,8 @@
 # Features
 MSHUB+ doesn't have the key system.
 
+# THIS IS OUTDATED!!
+
 ## Universal
 ```diff
 [ FREE ]
