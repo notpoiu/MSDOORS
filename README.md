@@ -10,4 +10,4 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/ma
 ⠀⠀⠀⠀[Synapse X](https://x.synapse.to) - DOWN, [Script-Ware Windows](https://script-ware.com) - DOWN, [Script-Ware Mac](https://script-ware.com)<br>
 
 ⠀⠀⠀{ FREE }<br>
-⠀⠀⠀⠀[KRNL](https://krnl.place) - DOWN, [Fluxus](https://fluxteam.net), [Electron](https://ryos.lol), [Script-Ware iOS](https://script-ware.com/ios)<br>
+⠀⠀⠀⠀[KRNL UWP](https://krnl.place), [Fluxus UWP (PC, Android)](https://fluxteam.net), [Electron](https://ryos.lol), [Script-Ware iOS](https://script-ware.com/ios)<br>
