@@ -139,21 +139,15 @@ function Lib:CreateBillboard(TextColor, Name, Model, Color)
 	DistanceText.TextWrap = true
 	Instance.new("UIStroke", DistanceText)
 	
-	local DistPart = GetBillboardPart(Model)
 	task.spawn(function()
-		task.wait(0.1)
-		if DistPart then
-			if BillboardTable.Deleted ~= true then
-				BillboardTable.DistanceHandler = RunService.RenderStepped:Connect(function()
-					if DistPart and DistPart.Position and DistanceText then
-						DistanceText.Text = "[".. math.round(game.Players.LocalPlayer:DistanceFromCharacter(DistPart.Position)) .. "]"
-					else
-						if BillboardTable.DistanceHandler ~= nil then BillboardTable.DistanceHandler:Disconnect() end
-					end
-				end)
-			end
-		else
-			DistanceText.Visible = false
+		if BillboardTable.Deleted ~= true then
+			BillboardTable.DistanceHandler = RunService.RenderStepped:Connect(function()
+				if Model and Model:GetPivot().Position and DistanceText then
+					DistanceText.Text = "[".. math.round(game.Players.LocalPlayer:DistanceFromCharacter(Model:GetPivot().Position)) .. "]"
+				else
+					if BillboardTable.DistanceHandler ~= nil then BillboardTable.DistanceHandler:Disconnect() end
+				end
+			end)
 		end
 	end)
 	
@@ -197,8 +191,8 @@ function Lib:HighlightESP(options)
 	local HighlightTable = {}
 	local Highlight = Instance.new("Highlight", ESPMain)
 	
-	local BillboardPart = GetBillboardPart(options["Model"])
-	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], BillboardPart, options["TextColor"])
+	--local BillboardPart = GetBillboardPart(options["Model"])
+	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], options["Model"], options["TextColor"])
 
 	Highlight.FillColor = options["FillColor"]
 	Highlight.OutlineColor = options["OutlineColor"]
@@ -248,8 +242,8 @@ function Lib:AdornmentESP(options)
 	local AdornmentTable = {}
 	local Adornment
 	
-	local BillboardPart = GetBillboardPart(options["Model"])
-	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], BillboardPart, options["TextColor"])
+	--local BillboardPart = GetBillboardPart(options["Model"])
+	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], options["Model"], options["TextColor"])
 
 	if options["Type"] == "Box" then
 		Adornment = Instance.new("BoxHandleAdornment", ESPAdornments)
@@ -312,8 +306,8 @@ function Lib:OutlineESP(options)
 	local OutlineTable = {}
 	local Outline = Instance.new("SelectionBox", ESPAdornments)
 	
-	local BillboardPart = GetBillboardPart(options["Model"])
-	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], BillboardPart, options["TextColor"])
+	--local BillboardPart = GetBillboardPart(options["Model"])
+	local BillboardGui = Lib:CreateBillboard(options["TextColor"], options["Name"], options["Model"], options["TextColor"])
 
 	Outline.SurfaceColor3 = options["SurfaceColor"]
 	Outline.Color3 = options["BorderColor"]
