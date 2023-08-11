@@ -5,16 +5,17 @@ return function(_, CanEntityKill)
         con=game:GetService("ReplicatedStorage").ClientModules.EntityModules.Shade.SoundHurt.Played:Connect(function(sId)
             game.Players.LocalPlayer.Character.Humanoid.Health-=60
             game:GetService("ReplicatedStorage").GameStats["Player_" .. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Halt"
-            debug.setupvalue(getconnections(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent)[1].Function, 1, {
+            debug.setupvalue(getconnections(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent)[1].Function, 1, {
                 "You died to Halt again...",
                 "As you run, it may appear in front of you at any time.",
                 "When it does, turn around and keep running!",
                 "This process will repeat multiple times."
             })
         end)
-        workspace.CurrentCamera.ChildRemoved:Connect(function(c)
+        local con2;con2=workspace.CurrentCamera.ChildRemoved:Connect(function(c)
             if c.Name=="Shade" then
                 con:Disconnect()
+                        con2:Disconnect()
             end
         end)
     end
