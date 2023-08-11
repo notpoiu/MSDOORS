@@ -1,0 +1,4 @@
+return function(_, CanEntityKill)
+ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/Codes/Entities/Doors_Entity_Spawner.lua"))()
+
+end
