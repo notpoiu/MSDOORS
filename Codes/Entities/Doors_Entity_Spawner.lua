@@ -49,9 +49,12 @@ function dragEntity(entityModel, pos, speed)
     if entityConnections then
         if entityConnections.movementNode ~= nil then
             entityConnections.movementNode:Disconnect()
+            entityConnections.movementNode = nil
         end
+    else
+        EntityConnections[entityModel] = {}
     end
-  
+    
     entityConnections.movementNode = RS.Stepped:Connect(function(_, step)
         if entityModel.Parent and not entityModel:GetAttribute("NoAI") then
             local rootPos = entityModel.PrimaryPart.Position
@@ -344,26 +347,28 @@ Spawner.runEntity = function(entityTable)
         nodes = inverseNodes
     end
 
-    for cycle = 1, math.max(math.random(cyclesConfig.Min, cyclesConfig.Max), 1) do
-        for nodeIdx = 1, #nodes, 1 do
-            dragEntity(entityModel, nodes[nodeIdx].Position + Vector3.new(0, 3.5 + entityTable.Config.HeightOffset, 0), entityTable.Config.Speed)
-        end
-
-        if cyclesConfig.Max > 1 then
-            for nodeIdx = #nodes, 1, -1 do
+    local scycle, ecycle = pcall(function()
+        for cycle = 1, math.max(math.random(cyclesConfig.Min, cyclesConfig.Max), 1) do
+            for nodeIdx = 1, #nodes, 1 do
                 dragEntity(entityModel, nodes[nodeIdx].Position + Vector3.new(0, 3.5 + entityTable.Config.HeightOffset, 0), entityTable.Config.Speed)
             end
+    
+            if cyclesConfig.Max > 1 then
+                for nodeIdx = #nodes, 1, -1 do
+                    dragEntity(entityModel, nodes[nodeIdx].Position + Vector3.new(0, 3.5 + entityTable.Config.HeightOffset, 0), entityTable.Config.Speed)
+                end
+            end
+    
+            -- Rebound finished
+    
+            task.spawn(entityTable.Debug.OnEntityFinishedRebound)
+            
+            if cycle < cyclesConfig.Max then
+                task.wait(cyclesConfig.WaitTime)
+            end
         end
-
-        -- Rebound finished
-
-        task.spawn(entityTable.Debug.OnEntityFinishedRebound)
-        
-        if cycle < cyclesConfig.Max then
-            task.wait(cyclesConfig.WaitTime)
-        end
-    end
-
+    end)
+    if ecycle then warn(ecycle) end
     -- Destroy
 
     if not entityModel:GetAttribute("NoAI") then
