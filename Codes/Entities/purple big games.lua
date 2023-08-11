@@ -8,7 +8,7 @@ local entity = Creator.createEntity({
     Speed = 200, -- Percentage, 100 = default Rush speed
     DelayTime = 3, -- Time before starting cycles (seconds)
     HeightOffset = 0,
-    CanKill = false,
+    CanKill = CanEntityKill or false,
     KillRange = 50,
     BreakLights = false,
     BackwardsMovement = false,
