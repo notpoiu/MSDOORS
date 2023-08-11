@@ -3,7 +3,7 @@ return function(_, CanEntityKill) -- cannot kill idk why
 	
 	local L_2_ = L_1_.createEntity({
 	    CustomName = "Trollface", -- Custom name of your entity
-	    Model = "https://github.com/mstudio45/poopdoors_edited/blob/main/Codes/Entities/trollface.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+	    Model = "https://github.com/mstudio45/MSDOORS/blob/main/Codes/Entities/trollface.rbxm?raw=true", -- Can be GitHub file or rbxassetid
 	    Speed = 5000, -- Percentage, 100 = default Rush speed
 		DelayTime = 2, -- Time before starting cycles (seconds)
 		HeightOffset = 0,
