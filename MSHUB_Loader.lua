@@ -13,4 +13,4 @@ game:GetService("GuiService").ErrorMessageChanged:Connect(function(kickmsg)
 end)
 
 task.wait()
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/21060/load_er.lua'))()
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/21134/loader_script_for_mshub.lua'))()
