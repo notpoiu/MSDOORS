@@ -1,5 +1,5 @@
-{
-      "NotSupported": {
+return {
+      NotSupported = {
           	"WRD-API",
           	"TRX",
           	"Hydrogen ALPHA",
