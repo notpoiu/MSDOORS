@@ -6,7 +6,6 @@ return {
           	"Zestra",
           	"Vega X",
           	"Kiwi X",
-          	"EasyExploits",
-            "Delta"
+          	"EasyExploits"
       }
 }
