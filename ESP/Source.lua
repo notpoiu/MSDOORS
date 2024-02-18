@@ -12,7 +12,7 @@ _____ ___  ________  ___  ___  ___       ________  ________  ___  __    _______ 
 --]]
 local CoreGUI = game:GetService("CoreGui");local CoreGui = CoreGUI
 local RunService = game:GetService("RunService")
-local Players = game:GetService("RunService")
+local Players = game:GetService("Players")
 
 local ESPFolder_Name = "F_ESP_FOLDER"
 local ESPMain_Name = "F_MAIN_FOLDER"
