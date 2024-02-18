@@ -10,17 +10,22 @@ _____ ___  ________  ___  ___  ___       ________  ________  ___  __    _______ 
                                 ESP Library by fishlock#2610 and mstudio45#9016
 
 --]]
-local CoreGUI = game:GetService("CoreGui");local CoreGui = CoreGUI
+local gethui = typeof(gethui) == "function" and gethui or (function() return game:GetService("CoreGui") end)
+local CoreGui = gethui() or game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 
+local hiddenGUI = gethui() or game:GetService("CoreGui") or Players.LocalPlayer.PlayerGui
+if hiddenGUI == Players.LocalPlayer.PlayerGui then warn("NOT USING COREGUI!") end
+
+-- Handler
 local ESPFolder_Name = "F_ESP_FOLDER"
 local ESPMain_Name = "F_MAIN_FOLDER"
 local ESPBillboards_Name = "F_BILLBOARDS_FOLDER"
 local ESPAdornments_Name = "F_ADORNMENTS_FOLDER"
-local ESPFolder = Players.LocalPlayer.PlayerGui:FindFirstChild(ESPFolder_Name)
+local ESPFolder = hiddenGUI:FindFirstChild(ESPFolder_Name)
 if ESPFolder == nil then
-	ESPFolder = Instance.new("Folder", Players.LocalPlayer.PlayerGui)
+	ESPFolder = Instance.new("Folder", hiddenGUI)
 	ESPFolder.Name = ESPFolder_Name
 end
 
