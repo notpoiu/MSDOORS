@@ -10,14 +10,11 @@ _____ ___  ________  ___  ___  ___       ________  ________  ___  __    _______ 
                                 ESP Library by fishlock#2610 and mstudio45#9016
 
 --]]
-local gethui = typeof(gethui) == "function" and gethui or (function() return nil end)
 local Players = game:GetService("Players")
-
-local CoreGui = gethui() or game:GetService("CoreGui")
+local CoreGui = game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 
-local hiddenGUI = gethui() or Players.LocalPlayer.PlayerGui
-if hiddenGUI == Players.LocalPlayer.PlayerGui then warn("NOT USING COREGUI!") end
+local hiddenGUI = Players.LocalPlayer.PlayerGui
 
 -- Handler
 local ESPFolder_Name = "F_ESP_FOLDER"
