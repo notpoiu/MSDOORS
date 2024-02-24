@@ -14,16 +14,14 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 
-local hiddenGUI = Players.LocalPlayer.PlayerGui
-
 -- Handler
 local ESPFolder_Name = "F_ESP_FOLDER"
 local ESPMain_Name = "F_MAIN_FOLDER"
 local ESPBillboards_Name = "F_BILLBOARDS_FOLDER"
 local ESPAdornments_Name = "F_ADORNMENTS_FOLDER"
-local ESPFolder = hiddenGUI:FindFirstChild(ESPFolder_Name)
+local ESPFolder = CoreGui:FindFirstChild(ESPFolder_Name)
 if ESPFolder == nil then
-	ESPFolder = Instance.new("Folder", hiddenGUI)
+	ESPFolder = Instance.new("Folder", CoreGui)
 	ESPFolder.Name = ESPFolder_Name
 end
 
