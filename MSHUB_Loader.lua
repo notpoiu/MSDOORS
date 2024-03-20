@@ -1,1 +1,2 @@
-game:GetService("Players").LocalPlayer:Kick("https://mshub.mstudio45.com/discord")
+local Inviter=loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+Inviter.Prompt({name = "MSHUB",invite = "discord.gg/qYsaJwSTsV"})
