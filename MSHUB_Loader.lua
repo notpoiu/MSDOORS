@@ -1,1 +1,1 @@
-game:GetService("Players").LocalPlayer:Kick("hi 👀 discord server soon, stay tuned")
+game:GetService("Players").LocalPlayer:Kick("https://mshub.mstudio45.com/discord")
