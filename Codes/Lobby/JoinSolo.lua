@@ -48,7 +48,7 @@ function warnmessage(title, text, timee)
 end
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-ReplicatedStorage:WaitForChild("EntityInfo"):WaitForChild("CreateElevator"):FireServer({
+ReplicatedStorage:WaitForChild("RemotesFolder"):WaitForChild("CreateElevator"):FireServer({
 	["Mods"] = {},
 	["FriendsOnly"] = false,
 	["MaxPlayers"] = "1"
