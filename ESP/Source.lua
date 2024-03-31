@@ -12,6 +12,7 @@ _____ ___  ________  ___  ___  ___       ________  ________  ___  __    _______ 
 --]]
 local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
+local HiddenUI = gethui and gethui() or CoreGui;
 local RunService = game:GetService("RunService")
 
 -- Handler
@@ -19,7 +20,7 @@ local ESPFolder_Name = "F_ESP_FOLDER"
 local ESPMain_Name = "F_MAIN_FOLDER"
 local ESPBillboards_Name = "F_BILLBOARDS_FOLDER"
 local ESPAdornments_Name = "F_ADORNMENTS_FOLDER"
-local ESPFolder = CoreGui:FindFirstChild(ESPFolder_Name)
+local ESPFolder = HiddenUI:FindFirstChild(ESPFolder_Name)
 if ESPFolder == nil then
 	ESPFolder = Instance.new("Folder", CoreGui)
 	ESPFolder.Name = ESPFolder_Name
@@ -45,9 +46,9 @@ end
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
-local Player = Players.LocalPlayer
-local Camera = game:GetService("Workspace").CurrentCamera
-local WorldToViewportPoint = Camera.WorldToViewportPoint
+local Player = Players.LocalPlayer;
+local Camera = game:GetService("Workspace").CurrentCamera;
+local WorldToViewportPoint = Camera.WorldToViewportPoint;
 local WorldToViewport = function(...) return WorldToViewportPoint(Camera, ...) end
 
 --// Do not touch anything under this unless you know what you are doing. \\--
