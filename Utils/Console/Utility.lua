@@ -122,7 +122,7 @@ function module.custom_console_progressbar(params)
     local progressbar_char = "█"
     local progressbar_empty = "░"
 
-    local message = create_log(msg, img, clr)
+    local message = module.custom_print(msg, img, clr)
     local progress = 0
 
     local progressbar_module = {}
